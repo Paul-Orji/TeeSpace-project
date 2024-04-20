@@ -1,0 +1,42 @@
+.navlinks-items{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* width: 100%; */
+    padding: 0 5rem;
+}
+.navlinks-items nav a{
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 10px;
+    text-transform: uppercase;
+    color: #000;
+}
+
+.navlinks-items .nav-icn .FaStar{
+    color: #fff;
+    border: solid 1px #000;
+}
+.navlinks-items .nav-icn{
+    color: red;
+    
+}
+
+.search-container {
+    position: relative;
+    /* height: 50px; */
+    /* width: 50px; */
+    /* margin-left: -30px; */
+  }
+  
+  .search-container input[type="text"] {
+    padding-left: 30px; 
+  }
+  
+  .search-container .search-icon {
+    position: absolute;
+    left: 10px; 
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  

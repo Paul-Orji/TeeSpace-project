@@ -1,0 +1,32 @@
+.hero-card img{
+    margin-top: 25px;
+}
+.hero-card .card-title{
+    margin: -15rem 3rem;
+
+}
+h2{
+    margin: 0;
+}
+p{
+    margin: 0;
+    color: gray;
+}
+
+#txt{
+    margin-top: 5px;
+}
+#btn{
+    margin-top: 25px;
+    border: none;
+    background: rgba(46, 187, 119, 1);
+    color: rgba(255, 255, 255, 1);
+    height: 30px;
+    width: 30%;
+    border-radius: 5px;
+    font-size: 14px;
+
+}
+.hero-img{
+    display: flex;
+}
