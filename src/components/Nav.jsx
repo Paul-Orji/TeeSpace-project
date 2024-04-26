@@ -1,6 +1,6 @@
 import React from 'react';
 import "../assets/css/nav.css";
-import Button from 'react-bootstrap/Button';
+// import Button from 'react-bootstrap/Button';
 import {FaTwitter, FaFacebook, FaInstagram, FaYoutube} from 'react-icons/fa';
 
 
@@ -14,11 +14,13 @@ const Nav = () => {
             <a href="#"><FaInstagram/></a>
             <a href="#"><FaYoutube/></a>
         </div>
-        <div><h5>&#x1f525;Free shipping on all U.S orders &#36;50+</h5></div>
+        <div><h6>&#x1f525;Free shipping on all U.S orders &#36;50+</h6></div>
         
         <div className='nav-btn'>
-            <Button id='login-btn' variant="link">Login</Button>
-            <Button id='signup-btn' variant="dark">Sign Up</Button>
+          <button id='login-btn' type="button">Login</button>
+          <button id='signup-btn' type="button">Sign Up</button>
+            {/* <Button id='login-btn' variant="link">Login</Button> */}
+            {/* <Button id='signup-btn'>Sign Up</Button> */}
         </div>
         
       

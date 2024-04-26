@@ -1,7 +1,7 @@
 import React from 'react';
 import "../assets/css/navlinks.css";
 // import Form from 'react-bootstrap/Form';
-import { FaChevronDown, FaSearch, FaShoppingBag, FaStar} from 'react-icons/fa'
+import { FaChevronDown, FaSearch, FaRegStar} from 'react-icons/fa'
 
 const Navlinks = () => {
   return (
@@ -9,11 +9,11 @@ const Navlinks = () => {
     <div className='menu'>
         <div className='navlinks-items'>
             <nav>
-                <a href="/">Home <FaChevronDown/></a>
-                <a href="/">Teespace <FaChevronDown/></a>
-                <a href="/">Shop <FaChevronDown/></a>
-                <a href="/">Blog <FaChevronDown/></a>
-                <a href="/">Pages <FaChevronDown/></a>
+                <a id='act' href="/">Home <FaChevronDown/></a>
+                <a href="#">Teespace <FaChevronDown/></a>
+                <a href="#">Shop <FaChevronDown/></a>
+                <a href="#">Blog <FaChevronDown/></a>
+                <a href="#">Pages <FaChevronDown/></a>
             </nav>
             <img src="https://res.cloudinary.com/ds2swdt9n/image/upload/v1713527860/Link_logo-black.png_tn2q3i.png" height="30px" alt="Teespace logo" />
         
@@ -22,8 +22,8 @@ const Navlinks = () => {
                 <FaSearch className="search-icon" />
             </div>
             <div className='nav-icn'>
-                <FaStar/>
-                <FaShoppingBag/>
+                <a id='fastar' href="#"><FaRegStar/></a>
+                <a id='fashop' href="#"><img height={15} src="https://res.cloudinary.com/ds2swdt9n/image/upload/v1714061979/shopping-bag-line_x9mmwe.svg" alt="" /></a>
             </div>
             {/* <Form className="d-flex">
             <Form.Control

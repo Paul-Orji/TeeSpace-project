@@ -1,9 +1,9 @@
 .nav-top{
     display: flex;
-    background-color: rgb(253, 250, 250);
+    background: rgba(248, 248, 248, 1);
     align-items: center;
     justify-content: space-between;
-    padding: 0 5rem;
+    padding: 0 10rem;
     margin: none;
     
 }
@@ -12,19 +12,27 @@
     text-decoration: none;
     color: gray;
 }
-.nav-top .social-links h5{
+.nav-top .social-links h6{
     margin: none;
+    color: #000;
+    
 }
 .nav-btn #login-btn{
     border: none;
     font-size: 14px;
+    padding: 10px;
+    margin: 10px;
+    background: rgba(248, 248, 248, 1);
 }
 .nav-btn #signup-btn{
     border: none;
     background-color: #000;
     border-radius: 5px;
     color: #fff;
-    font-size: 14px;
+    font-size: 12px;
     height: 25px;
     width: 80px;
+    text-align: center;
+    /* margin-bottom: 15px; */
 }
+

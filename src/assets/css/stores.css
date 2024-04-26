@@ -1,0 +1,54 @@
+.store-card{
+    margin-top: 2rem;
+    width: 150px;
+}
+.card-title #p-desc{
+    font-size: 10px;
+    color: gray;
+}
+.card-title h6{
+    font-weight: 600;
+    margin-top: -10px;
+}
+.card-title #FaStar{
+    color: yellow;
+    background: yellow
+}
+.card-title #p-rate{
+    margin-top: -10px;
+    color: gray;
+    font-size: 10px;
+}
+.card-title #prod{
+    font-size: 10px;
+    margin-top: -10px;
+}
+#stores-btn{
+    background: rgba(222, 249, 236, 1);
+    color: rgba(59, 183, 126, 1);
+    font-size: 10px;
+    width: 70px;
+    height: 30px;
+    border: none;
+    gap: 10px;
+}
+.p-div{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+#price{
+    font-size: 12px;
+    font-weight: 600;
+    color: rgba(59, 183, 126, 1);
+    margin-top: 10px;
+    
+}
+#price2{
+    font-size: 12px;
+    margin-top: 10px;
+    text-decoration: line-through;
+}
+.store-card img{
+    border-radius: 10px;
+}

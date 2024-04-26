@@ -1,0 +1,43 @@
+.shop-img{
+    margin-top: 2rem;
+   
+}
+.row {
+    padding: 0 5rem;
+}
+#shop-imgg{
+    margin-top: -10rem;
+}
+ .shop-card #btnn{
+    margin-top: -150px 100px;
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 5px ;
+    font-size: 12px;
+    font-weight: 600;
+    background-color: #fff;
+    color: #000;
+}
+.shop-card .btn-dv{
+    margin: -40px 50px;
+}
+.shop2-card .btn-dvv{
+    margin: -40px 15px;
+}
+
+
+.shop2-card #btnn2{
+    margin: -80px 170px;
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: 600;
+}
+.sub-txt{
+    margin-top: 10rem;
+    text-align: center;
+    
+}
