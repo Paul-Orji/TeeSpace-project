@@ -30,3 +30,34 @@ p{
 .hero-img{
     display: flex;
 } 
+
+
+/* Mobile view */
+
+@media (max-width: 768px){
+    .hero-img {
+        display: flex;
+        flex-direction: column;
+        row-gap: 1rem;
+    }
+    
+    .hero-card img {
+        width: 100%; /* Ensure the image fills the container */
+        height: auto; /* Maintain aspect ratio */
+        margin-top: 25px;
+    }
+    
+    .hero-card .card-title {
+        margin: 1rem; /* Adjust margin as needed */
+        margin-top: -13rem;
+    }
+    .hero-card .card-title p{
+        margin: 0;
+    }
+    
+    #btn {
+        width: 100%; /* Ensure the button fills the container */
+        margin-top: 2rem; /* Adjust margin as needed */
+    }
+    
+}

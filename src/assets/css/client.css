@@ -31,10 +31,7 @@
     display: flex;
     justify-content: center;
 }
-/* #row-3 div{
-    justify-content: center;
-    align-items: center;
-} */
+
 #col-14{
     display: flex;
     justify-content: center;
@@ -56,4 +53,49 @@
 .stats-details p{
     margin: 0;
     font-size: 14px;
+}
+.mobile.container{
+    display: none;
+}
+
+
+/* For screens smaller than 768px (typical mobile devices) */
+@media (max-width: 768px) {
+   
+    .stats {
+        flex-direction: column; /* Change to column layout for smaller screens */
+        margin: 2rem; /* Adjust margin for better spacing */
+    }
+
+    .stats div {
+        margin-bottom: 2rem; /* Add space between statistic sections */
+    }
+
+    .stats-details h3 {
+        text-align: center; /* Center heading text */
+    }
+
+    .stats-details p {
+        text-align: center; /* Center paragraph text */
+    }
+
+    .container{
+        display: none;
+    }
+
+    #col-btn {
+        margin-left: auto; /* Align button to the right */
+        margin-right: auto; /* Align button to the right */
+    }
+    .client-txt{
+        text-align: center;
+    }
+    .client-1{
+        display: flex;
+        justify-content: space-between;
+        
+    }
+   
+
+  
 }

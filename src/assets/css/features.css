@@ -55,3 +55,58 @@
 
     
 }
+
+
+
+
+@media (max-width: 768px) {
+    .feature-img {
+        display: block; 
+        align-items: center;
+        justify-content: center;
+        margin: 0; 
+        width: 100%;
+        
+    }
+    .feature-card img{
+        width: 100%;
+    }
+
+    .feature-card {
+        margin-bottom: 2rem; 
+    }
+
+    .feature-card-title {
+        margin-top: -7rem;
+        text-align: center; 
+    }
+    .feature-card-title p{
+        text-align: center;
+        margin-left: 2rem;
+    }
+
+    .feature-head h3 {
+        font-size: 1.5rem; 
+    }
+
+    .templates {
+        flex-direction: column; 
+        margin: 5rem 1rem; 
+        padding: 2rem; 
+    }
+
+    .templates h2 {
+        font-size: 1.5rem; 
+        text-align: center; 
+    }
+
+    .templates p {
+        font-size: 1rem; 
+        text-align: center; 
+    }
+
+    .templates #temp-btn {
+        width: 100%; 
+        margin-top: 1rem;  
+    }
+}

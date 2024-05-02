@@ -22,3 +22,39 @@
 .services-card .card-title p{
     margin-left: 1rem;
 }
+
+/* Mobile view */
+
+@media only screen and (max-width: 768px){
+    .service {
+        display: flex;
+        flex-direction: column; /* Change to column layout on smaller screens */
+        align-items: center; /* Center items horizontally */
+        margin-top: 2rem; /* Adjust margin as needed */
+        padding: 0 1rem; /* Adjust padding as needed */
+    }
+    
+    .services-card {
+        display: flex;
+        align-items: center; /* Center items vertically */
+        padding: 20px;
+        margin-bottom: 1rem; /* Add margin between cards */
+    }
+    
+    .services-card img {
+        margin-left: 0; /* Reset margin for the image */
+        margin-right: 1rem; /* Add margin to the right of the image */
+    }
+    
+    .services-card .card-title p {
+        font-size: 12px;
+        margin-top: 5px;
+    }
+    
+    .services-card .card-title h4,
+    .services-card .card-title p {
+        margin: 0; /* Reset margin */
+        text-align: left; /* Align text to the left */
+    }
+    
+}

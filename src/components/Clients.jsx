@@ -23,7 +23,7 @@ const Statistics = (props) =>{
 const Clients = () => {
   return (
     <>
-    <Container>
+    <Container className='container'>
         <Row>
             <Col id='col-1' ><img height={120} src="https://res.cloudinary.com/ds2swdt9n/image/upload/v1713527849/logo_2_qp0qad.png" alt="Client logo" /></Col>
         </Row>
@@ -49,6 +49,27 @@ const Clients = () => {
         </Row>
 
     </Container>
+
+    <div className='mobile-container'>
+        <div className='client-1'>
+            <img height={80} src="https://res.cloudinary.com/ds2swdt9n/image/upload/v1713527849/logo_2_qp0qad.png" alt="Client logo" />
+            <img height={100} src="https://res.cloudinary.com/ds2swdt9n/image/upload/v1713527850/logo_1_aycegk.png" alt="Client logo" />
+            <img height={100} src="https://res.cloudinary.com/ds2swdt9n/image/upload/v1713527849/logo_3_ypjnw5.png" alt="Client logo" />
+            <img height={100} src="https://res.cloudinary.com/ds2swdt9n/image/upload/v1713527850/logo_qgbxxx.png" alt="Client logo" />
+        </div>
+        <div className='client-txt'>
+            <h3>Join the 7,000&#43;</h3><h3>companies trusting us</h3>
+            <p>You've got the ideas, we've got the tools</p>
+            <button id='col-btn' type="button">Get Started</button>
+        </div>
+        <div className='client-1'>
+            <img height={100} src="https://res.cloudinary.com/ds2swdt9n/image/upload/v1713527849/logo_4_bvtfvg.png" alt="Client logo" />
+            <img height={100} src="https://res.cloudinary.com/ds2swdt9n/image/upload/v1713527848/logo_6_v6xvru.png" alt="Client logo" />
+            <img height={100} src="https://res.cloudinary.com/ds2swdt9n/image/upload/v1713527848/logo_5_ezmcey.png" alt="Client logo" />
+        </div>
+
+    </div>
+
     <div className='stats'>
         <div>
             <Statistics value= "$37M"

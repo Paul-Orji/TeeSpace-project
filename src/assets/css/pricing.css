@@ -1,0 +1,152 @@
+
+.price-img{
+    background: rgba(180, 121, 217, 0.15);
+    height: 110vh;
+
+}
+.pricing-list{
+    padding-top: 5rem;
+    text-align: center;
+}
+.pricing-list h3{
+    font-weight: 700;
+    color: #000;
+}
+.pricing-card{
+    background: #fff;
+    height: 21rem;
+    width: 45vh;
+    border-radius: 5px; 
+}
+.pricing-card2{
+    background: #fff;
+    height: 25rem;
+    width: 45vh;
+    margin-top: -2rem;
+    border-radius: 5px; 
+}
+#pop-tag{
+    background: #000;
+    color: #fff;
+    width: 4rem;
+    height: 1.2rem;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 12px;
+    margin-top: 1rem;
+    margin-left: 12rem;
+    
+}
+.pricing-card3{
+    background: #fff;
+    height: 21rem;
+    width: 45vh;
+    border-radius: 5px; 
+}
+.title-tag{
+    text-align: center;
+    padding-top: 2rem;
+}
+.title-tag2{
+    text-align: center;
+    padding-top: -1rem;
+}
+.price-tag, .price-tag2{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.details-sect{
+    margin: 2rem 1rem;
+    color: rgba(0, 0, 0, 1);
+    
+}
+.details-sect2{
+    margin: 1rem 1rem ;
+    color: rgba(0, 0, 0, 1);
+}
+.details-sect p, .details-sect2 p{
+    margin: 0;
+    font-size: 12px;
+    
+}
+#pricing-btn{
+    margin-left: 0.8rem;
+    margin-top: 2rem;
+    width: 90%;
+    height: 40px;
+    background: rgba(46, 187, 119, 0.1);
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: 700;
+
+}
+.pricing-card2 #pricing-btn{
+    background: rgba(46, 187, 119, 1);
+    color: rgba(255, 255, 255, 1);
+    ;
+
+}
+.price-card{
+    display: flex;
+    margin: 5rem 10rem;
+    justify-content: space-between;
+}
+
+
+/* Mobile view */
+
+@media (max-width: 768px) {
+    .price-img {
+        height: auto; /* Auto height to accommodate content */
+        padding-bottom: 2rem; /* Add padding for better spacing */
+    }
+
+    .price-card {
+        flex-direction: column; /* Change to column layout for smaller screens */
+        margin: 2rem; /* Adjust margin for better spacing */
+    }
+
+    .pricing-card,
+    .pricing-card2,
+    .pricing-card3 {
+        width: 100%; /* Make pricing cards take full width */
+        margin-bottom: 2rem; /* Add space between pricing cards */
+    }
+    .pricing-card2{
+        margin-top: 0.5rem;
+    }
+
+    #pop-tag {
+        margin-left: auto; /* Align 'Popular' tag to the right */
+        margin-right: auto; /* Align 'Popular' tag to the right */
+    }
+
+    .price-tag,
+    .price-tag2 {
+        justify-content: center; /* Center price and user text */
+    }
+
+    .details-sect,
+    .details-sect2 {
+        text-align: center; /* Center details text */
+    }
+
+    #pricing-btn {
+        margin: 1rem auto 0; /* Center button and add space */
+        width: 80%; /* Adjust button width */
+    }
+
+    .pricing-card2 #pricing-btn {
+        background: rgba(46, 187, 119, 1); /* Adjust button color */
+        color: rgba(255, 255, 255, 1); /* Adjust button text color */
+    }
+
+    .title-tag,
+    .title-tag2 {
+        padding-top: 1rem; /* Adjust padding for title tags */
+    }
+}
+

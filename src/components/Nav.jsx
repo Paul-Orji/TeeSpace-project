@@ -1,6 +1,5 @@
 import React from 'react';
 import "../assets/css/nav.css";
-// import Button from 'react-bootstrap/Button';
 import {FaTwitter, FaFacebook, FaInstagram, FaYoutube} from 'react-icons/fa';
 
 
@@ -19,8 +18,6 @@ const Nav = () => {
         <div className='nav-btn'>
           <button id='login-btn' type="button">Login</button>
           <button id='signup-btn' type="button">Sign Up</button>
-            {/* <Button id='login-btn' variant="link">Login</Button> */}
-            {/* <Button id='signup-btn'>Sign Up</Button> */}
         </div>
         
       

@@ -39,5 +39,46 @@
 .sub-txt{
     margin-top: 10rem;
     text-align: center;
+}
+.sub-txt1{
+    display: none;
+}
+#carousel{
+    display: none;
+}
+
+
+/* Mobile view */
+
+@media only screen and (max-width: 768px){
+ 
+    .shop-img{
+        display: none;
+    }
+    #carousel{
+        display: block;
+    }
+    #carousel img{
+        height: 400px;
+    }
+    .sub-txt{
+        display: none;
+       
+    }
+    .sub-txt1{
+        text-align: center;
+        margin-top: 2rem;
+        display: block;
+    }
+    #carousel .car-btn{
+        background-color: #fff;
+        color: #000;
+        width: 200px;
+        height: 50px;
+        border: none;
+        border-radius: 5px;
+        font-size: 14px;
+        font-weight: 600;
+    }
     
 }

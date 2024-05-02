@@ -1,0 +1,83 @@
+footer{
+    background: rgba(248, 248, 248, 1);
+    height: 70vh;
+
+}
+.footer-sect{
+    display: flex;
+    margin: 5rem 10rem;
+    padding-top: 5rem;
+    justify-content: space-between;
+}
+.link{
+    display: block;
+}
+.questions .social-links a{
+    padding: 10px;
+    text-decoration: none;
+    color: gray;
+}
+.questions p{
+    font-size: 12px;
+}
+.foott{
+    display: flex;
+    justify-content: center;
+}
+.footer-p{
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 12px;
+}
+.info-sect p{
+    font-size: 12px;
+    margin-top: 0.5rem;
+}
+.link a{
+    text-decoration: none;
+    color: gray;
+    font-size: 12px;
+    display: block;
+    margin: 5px;
+}
+
+
+
+/* For screens smaller than 768px (typical mobile devices) */
+@media (max-width: 768px) {
+    .footer-sect {
+        flex-direction: column; /* Change to column layout for smaller screens */
+        margin: 2rem; /* Adjust margin for better spacing */
+    }
+
+    .info-sect,
+    .links-sect,
+    .useful-links,
+    .questions {
+        text-align: center; /* Center content */
+        margin-bottom: 2rem; /* Add space between sections */
+    }
+
+    .link {
+        display: flex; /* Display links horizontally */
+        flex-wrap: wrap; /* Wrap links if they exceed container width */
+        justify-content: center; /* Center links */
+    }
+
+    .link a {
+        margin: 5px 10px; /* Adjust margin for better spacing between links */
+    }
+
+    .questions .social-links {
+        display: flex; /* Display social links horizontally */
+        justify-content: center; /* Center social links */
+    }
+
+    .questions p {
+        margin-top: 1rem; /* Add space between text and social links */
+    }
+
+    .foott {
+        margin-top: 2rem; /* Add space between supported payment method image and footer text */
+    }
+}
