@@ -137,7 +137,7 @@ const Stores = () => {
     </Row>
     </Container>
 
-    <p className='view'><a href="#">View all</a></p>
+    <p className='view'><a href="/">View all</a></p>
     <Carousel id='carousel'>
       <Carousel.Item>
       <div className='mob-cont'>
@@ -173,53 +173,8 @@ const Stores = () => {
             </div>
         </div>
 
-       
-
-  
-    </div>
-        <Carousel.Caption>
-          
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-      <div className='mob-cont'>
-
-        <div className='mobview-cont'>
-            
-            <img width={190} height={100} src="https://res.cloudinary.com/ds2swdt9n/image/upload/v1713527850/Link_product-1-1.jpg_e6t392.png" alt="" />
-            <p>Snack</p>
-            <h5>Zone <br />Sweatshirt</h5>
-            <p className='sta-rt'>
-                <FaStar/> (4.0)
-            </p>
-            <p>By NestFood</p>
-            <div className='prc'>
-                <p className='price'>$28.85</p>
-                <p className='price2'>$32.8</p>
-                <button className='stores-btn' type="button">Add</button>
-            </div>
-        </div>
-
-        <div className='mobview-cont'>
-            <img width={190} height={100} src="https://res.cloudinary.com/ds2swdt9n/image/upload/v1713527850/Link_product-1-1.jpg_e6t392.png" alt="" />
-            <p>Snack</p>
-            <h5>Zone <br />Sweatshirt</h5>
-            <p className='sta-rt'>
-                <FaStar/> (4.0)
-            </p>
-            <p>By NestFood </p>
-            <div className='prc'>
-                <p className='price'>$28.85</p>
-                <p className='price2'>$32.8</p>
-                <button className='stores-btn' type="button">Add</button>
-            </div>
-        </div>
-  
     </div>
         
-        <Carousel.Caption>
-          
-        </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
       <div className='mob-cont'>
@@ -254,14 +209,45 @@ const Stores = () => {
                 <button className='stores-btn' type="button">Add</button>
             </div>
         </div>
-
-       
-
   
     </div>
-        <Carousel.Caption>
-          
-        </Carousel.Caption>
+      </Carousel.Item>
+
+      <Carousel.Item>
+      <div className='mob-cont'>
+
+        <div className='mobview-cont'>
+            
+            <img width={190} height={100} src="https://res.cloudinary.com/ds2swdt9n/image/upload/v1713527850/Link_product-1-1.jpg_e6t392.png" alt="" />
+            <p>Snack</p>
+            <h5>Zone <br />Sweatshirt</h5>
+            <p className='sta-rt'>
+                <FaStar/> (4.0)
+            </p>
+            <p>By NestFood</p>
+            <div className='prc'>
+                <p className='price'>$28.85</p>
+                <p className='price2'>$32.8</p>
+                <button className='stores-btn' type="button">Add</button>
+            </div>
+        </div>
+
+        <div className='mobview-cont'>
+            <img width={190} height={100} src="https://res.cloudinary.com/ds2swdt9n/image/upload/v1713527850/Link_product-1-1.jpg_e6t392.png" alt="" />
+            <p>Snack</p>
+            <h5>Zone <br />Sweatshirt</h5>
+            <p className='sta-rt'>
+                <FaStar/> (4.0)
+            </p>
+            <p>By NestFood </p>
+            <div className='prc'>
+                <p className='price'>$28.85</p>
+                <p className='price2'>$32.8</p>
+                <button className='stores-btn' type="button">Add</button>
+            </div>
+        </div>
+
+    </div>
       </Carousel.Item>
     </Carousel>
     

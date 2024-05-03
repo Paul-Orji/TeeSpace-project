@@ -54,29 +54,30 @@
     margin: 0;
     font-size: 14px;
 }
-.mobile.container{
+.mobile-container{
     display: none;
 }
 
 
-/* For screens smaller than 768px (typical mobile devices) */
+/* Mobile view */
+
 @media (max-width: 768px) {
    
     .stats {
-        flex-direction: column; /* Change to column layout for smaller screens */
-        margin: 2rem; /* Adjust margin for better spacing */
+        flex-direction: column; 
+        margin: 2rem; 
     }
 
     .stats div {
-        margin-bottom: 2rem; /* Add space between statistic sections */
+        margin-bottom: 2rem; 
     }
 
     .stats-details h3 {
-        text-align: center; /* Center heading text */
+        text-align: center; 
     }
 
     .stats-details p {
-        text-align: center; /* Center paragraph text */
+        text-align: center; 
     }
 
     .container{
@@ -84,8 +85,8 @@
     }
 
     #col-btn {
-        margin-left: auto; /* Align button to the right */
-        margin-right: auto; /* Align button to the right */
+        margin-left: auto; 
+        margin-right: auto; 
     }
     .client-txt{
         text-align: center;

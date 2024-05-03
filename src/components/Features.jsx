@@ -49,7 +49,7 @@ const Features = () => {
     </div>
     <div className='templates'>
         
-            <img height={300} src="https://res.cloudinary.com/ds2swdt9n/image/upload/v1713527849/div.elementor-element_kmurxo.png" alt="image" />
+            <img height={300} src="https://res.cloudinary.com/ds2swdt9n/image/upload/v1713527849/div.elementor-element_kmurxo.png" alt="" />
             <div>
                 <h2>10,000&#43; of free <br />images, icon, and<br />graphics</h2>
                 <p>You've got the ideas. we've got the tools</p>

@@ -17,22 +17,22 @@ const Footer = () => {
         <div className='links-sect'>
             <h6>Information</h6>
             <div className='link'>
-                <a href="#">About Us</a>
-                <a href="#">Our Blog</a>
-                <a href="#">Start a Return</a>
-                <a href="#">Contact Us</a>
-                <a href="#">Shipping FAQ's</a>
+                <a href="/">About Us</a>
+                <a href="/">Our Blog</a>
+                <a href="/">Start a Return</a>
+                <a href="/">Contact Us</a>
+                <a href="/">Shipping FAQ's</a>
                 </div>
             
         </div> 
         <div className='useful-links'>
             <h6>Useful Links</h6>
             <div className='link'>
-                <a href="#">My Account</a>
-                <a href="#">Shipping</a>
-                <a href="#">Contact & Support</a>
-                <a href="#">All Products</a>
-                <a href="#">Design Products</a>
+                <a href="/">My Account</a>
+                <a href="/">Shipping</a>
+                <a href="/">Contact & Support</a>
+                <a href="/">All Products</a>
+                <a href="/">Design Products</a>
             </div>
             
         </div>
@@ -42,10 +42,10 @@ const Footer = () => {
             <p>Find answers to all your questions</p>
 
             <div className='social-links'>
-            <a href="#"><FaTwitter/></a>
-            <a href="#"><FaFacebook/></a>
-            <a href="#"><FaInstagram/></a>
-            <a href="#"><FaYoutube/></a>
+            <a href="/"><FaTwitter/></a>
+            <a href="/"><FaFacebook/></a>
+            <a href="/"><FaInstagram/></a>
+            <a href="/"><FaYoutube/></a>
 
             </div>
 

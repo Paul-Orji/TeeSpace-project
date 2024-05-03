@@ -35,20 +35,20 @@ const Navlinks = () => {
                 {menuOpen && (
                     <div className="menu-items">
                         <a id='act' href="/">Home</a>
-                        <a href="#">Teespace</a>
-                        <a href="#">Shop</a>
-                        <a href="#">Blog</a>
-                        <a href="#">Pages</a>
+                        <a href="/">Teespace</a>
+                        <a href="/">Shop</a>
+                        <a href="/">Blog</a>
+                        <a href="/">Pages</a>
                     </div>
                 )}
             </div>
             
             <nav>
                 <a id='act' href="/">Home <FaChevronDown/></a>
-                <a href="#">Teespace <FaChevronDown/></a>
-                <a href="#">Shop <FaChevronDown/></a>
-                <a href="#">Blog <FaChevronDown/></a>
-                <a href="#">Pages <FaChevronDown/></a>
+                <a href="/">Teespace <FaChevronDown/></a>
+                <a href="/">Shop <FaChevronDown/></a>
+                <a href="/">Blog <FaChevronDown/></a>
+                <a href="/">Pages <FaChevronDown/></a>
             </nav>
 
             
@@ -59,8 +59,16 @@ const Navlinks = () => {
                 <FaSearch className="search-icon" />
             </div>
             <div className='nav-icn'>
-                <a id='fastar' href="#"><FaRegStar/></a>
-                <a id='fashop' href="#"><img height={15} src="https://res.cloudinary.com/ds2swdt9n/image/upload/v1714061979/shopping-bag-line_x9mmwe.svg" alt="" /></a>
+                <div>
+                    <a id='fastar' href="/"><FaRegStar/></a>
+                    <p className='tag'>0</p>
+                </div>
+                <div>
+                   <a id='fashop' href="/"><img height={15} src="https://res.cloudinary.com/ds2swdt9n/image/upload/v1714061979/shopping-bag-line_x9mmwe.svg" alt="" /></a> 
+                   <p className='tag'>0</p>
+                </div>
+                
+                
             </div>
           
 

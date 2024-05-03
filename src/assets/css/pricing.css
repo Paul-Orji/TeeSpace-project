@@ -100,53 +100,53 @@
 
 @media (max-width: 768px) {
     .price-img {
-        height: auto; /* Auto height to accommodate content */
-        padding-bottom: 2rem; /* Add padding for better spacing */
+        height: auto; 
+        padding-bottom: 2rem; 
     }
 
     .price-card {
-        flex-direction: column; /* Change to column layout for smaller screens */
-        margin: 2rem; /* Adjust margin for better spacing */
+        flex-direction: column; 
+        margin: 2rem; 
     }
 
     .pricing-card,
     .pricing-card2,
     .pricing-card3 {
-        width: 100%; /* Make pricing cards take full width */
-        margin-bottom: 2rem; /* Add space between pricing cards */
+        width: 100%; 
+        margin-bottom: 2rem; 
     }
     .pricing-card2{
         margin-top: 0.5rem;
     }
 
     #pop-tag {
-        margin-left: auto; /* Align 'Popular' tag to the right */
-        margin-right: auto; /* Align 'Popular' tag to the right */
+        margin-left: auto; 
+        margin-right: auto; 
     }
 
     .price-tag,
     .price-tag2 {
-        justify-content: center; /* Center price and user text */
+        justify-content: center; 
     }
 
     .details-sect,
     .details-sect2 {
-        text-align: center; /* Center details text */
+        text-align: center; 
     }
 
     #pricing-btn {
-        margin: 1rem auto 0; /* Center button and add space */
-        width: 80%; /* Adjust button width */
+        margin: 1rem auto 0; 
+        width: 80%; 
     }
 
     .pricing-card2 #pricing-btn {
-        background: rgba(46, 187, 119, 1); /* Adjust button color */
-        color: rgba(255, 255, 255, 1); /* Adjust button text color */
+        background: rgba(46, 187, 119, 1); 
+        color: rgba(255, 255, 255, 1); 
     }
 
     .title-tag,
     .title-tag2 {
-        padding-top: 1rem; /* Adjust padding for title tags */
+        padding-top: 1rem; 
     }
 }
 

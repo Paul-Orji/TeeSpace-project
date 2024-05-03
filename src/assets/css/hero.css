@@ -42,13 +42,13 @@ p{
     }
     
     .hero-card img {
-        width: 100%; /* Ensure the image fills the container */
-        height: auto; /* Maintain aspect ratio */
+        width: 100%; 
+        height: auto; 
         margin-top: 25px;
     }
     
     .hero-card .card-title {
-        margin: 1rem; /* Adjust margin as needed */
+        margin: 1rem; 
         margin-top: -13rem;
     }
     .hero-card .card-title p{
@@ -56,8 +56,8 @@ p{
     }
     
     #btn {
-        width: 100%; /* Ensure the button fills the container */
-        margin-top: 2rem; /* Adjust margin as needed */
+        width: 100%; 
+        margin-top: 2rem; 
     }
     
 }

@@ -16,7 +16,7 @@ const Custom = () => {
                    <span>3</span><p> Order prints by selecting your preffered T-shirt size, style,  and quantity</p> 
                    <span>4</span><p> Get your order sent to your door with free standard shipping </p> 
             </div>
-            <img src="https://res.cloudinary.com/ds2swdt9n/image/upload/v1713527850/step-banner-41.png_fatbag.png" alt="Custom image sample" />
+            <img src="https://res.cloudinary.com/ds2swdt9n/image/upload/v1713527850/step-banner-41.png_fatbag.png" alt="Custom sample" />
 
         </div>
       

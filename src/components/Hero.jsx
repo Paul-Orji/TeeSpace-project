@@ -10,7 +10,7 @@ const HeroImage= (props) => {
     return (
         <>
         <div className='hero-card'>
-            <img height="20%" width="99%" src={image} alt="Hero-image" />
+            <img height="20%" width="99%" src={image} alt="Hero" />
             <div className='card-title'>
               <h2>{title}</h2>
               <h2>{title1}</h2>

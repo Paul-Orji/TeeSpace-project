@@ -26,7 +26,7 @@ const ShopCardBig = (props) => {
     return (
         <>
         <div className='shop2-card'>
-            <img height={450} width={450} src={imagebig} alt="Shop-image" />
+            <img height={450} width={450} src={imagebig} alt="Shop" />
             <div className='btn-dvv'><button id='btnn2' type="button">{buttonbig}</button></div>
         </div>
         </>

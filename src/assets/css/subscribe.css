@@ -45,25 +45,25 @@
 
 @media (max-width: 768px) {
     .subscribe-sect {
-        flex-direction: column; /* Change to column layout for smaller screens */
-        margin: 2rem; /* Adjust margin for better spacing */
+        flex-direction: column; 
+        margin: 2rem; 
     }
 
     .subs-info {
-        width: 100%; /* Make subscribe info take full width */
-        text-align: center; /* Center content */
+        width: 100%; 
+        text-align: center; 
     }
 
     #arrow-dwn {
-        margin: 1rem auto; /* Center arrow image */
+        margin: 1rem auto; 
     }
 
     #subs-input {
-        width: 100%; /* Make input field take full width */
+        width: 100%; 
     }
 
     #subs-btn {
-        width: 100%; /* Make button take full width */
-        margin-top: 1rem; /* Add space between input and button */
+        width: 100%; 
+        margin-top: 1rem; 
     }
 }
