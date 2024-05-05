@@ -12,6 +12,9 @@
     text-transform: uppercase;
     color: #000;
 }
+.navlinks-items nav a :hover{
+  color: rgba(46, 187, 119, 1);
+}
  #act {
   color:  rgba(46, 187, 119, 1);
   
@@ -79,14 +82,27 @@
 @media (max-width:768px){
   .mobile-menu{
     display: block;
+    position: relative;
+  }
+  .menu-items{
+    position: absolute;
+    background: #fff;
+    padding: 10px;
+    
   }
   .menu-items a{
-    margin: 0 15px;
+    margin: 15px 15px;
     text-decoration: none;
     font-size: 10px;
     text-transform: uppercase;
     color: #000;
     display: block;
+    align-content: space-between;
+    
+  }
+  .menu-items  a  :hover{
+    color: rgba(46, 187, 119, 1);
+    
   }
  
   nav a{
@@ -102,34 +118,38 @@
 
 .navlinks-items nav {
     margin-bottom: 1rem; 
-
+}
 .navlinks-items nav a {
     margin: 0;
 }
-
+#search-cont{
+  display: none;
+}
 #act {
-    color: rgba(46, 187, 119, 1);
+    color: #000;
 }
 
 .navlinks-items .nav-icn a {
     margin-top: 1rem; 
 }
 
-.navlinks-items .search-container {
+/* .search-container {
     margin-bottom: 1rem; 
     margin-top: 2rem;
-}
+    
+} */
 
-.search-container input[type="text"] {
+/* .search-container input[type="text"] {
     width: 100%;
     padding-left: 30px;
     font-size: 12px;
-}
+    
+} */
 
-.search-container .search-icon {
+/* .search-container .search-icon {
     left: 5px; 
-}
+} */
 
   
-}
+
 }

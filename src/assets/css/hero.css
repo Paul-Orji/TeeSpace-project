@@ -39,6 +39,7 @@ p{
         display: flex;
         flex-direction: column;
         row-gap: 1rem;
+        z-index: 1;
     }
     
     .hero-card img {

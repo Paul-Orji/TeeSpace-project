@@ -55,8 +55,8 @@ const Navlinks = () => {
             <img src="https://res.cloudinary.com/ds2swdt9n/image/upload/v1713527860/Link_logo-black.png_tn2q3i.png" height="30px" alt="Teespace logo" />
         
             <div className="search-container">
-                <input type="text" placeholder="Search..." />
-                <FaSearch className="search-icon" />
+                <input id='search-cont' type="text" placeholder="Search..." />
+                <a href="/"><FaSearch className="search-icon" /></a>
             </div>
             <div className='nav-icn'>
                 <div>
