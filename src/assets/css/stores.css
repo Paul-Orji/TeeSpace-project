@@ -132,9 +132,9 @@
     #store-cont{
         display: none;
     }
-    /* #carousel{
+    .carousel{
         display:block;
-    } */
+    } 
     .mob-cont{
         display: flex;
         margin-top: 1rem;
