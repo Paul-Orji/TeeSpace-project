@@ -1,8 +1,68 @@
 .store-card{
     margin-top: 2rem;
     width: 150px;
+    position: relative;
 }
-.card-title #p-desc{
+.hot{
+    position: absolute;
+    background: rgba(247, 75, 129, 1);
+    color: #fff;
+    font-size: 8px;
+    border-radius: 10px 0 10px 0;
+    text-align: center;
+    z-index: 2;
+    padding: 5px 10px;
+    margin-top: -17rem;
+    margin-left: -1rem;
+}
+.hot1{
+    position: absolute;
+    background: rgba(68, 112, 77, 1);
+    color: #fff;
+    font-size: 8px;
+    border-radius: 10px 0 10px 0;
+    text-align: center;
+    z-index: 2;
+    padding: 5px 10px;
+    margin-top: -17rem;
+    margin-left: -1rem;
+}
+.hot2{
+    position: absolute;
+    background: rgba(17, 177, 150, 1);
+    color: #fff;
+    font-size: 8px;
+    border-radius: 10px 0 10px 0;
+    text-align: center;
+    z-index: 2;
+    padding: 5px 10px;
+    margin-top: -17rem;
+    margin-left: -1rem;
+}
+
+
+.sale{
+    position: absolute;
+    background: rgba(46, 187, 119, 1);
+    color: #fff;
+    font-size: 10px;
+    border-radius: 3px;
+    padding: 2px;
+    margin-top: -15.5rem;
+    margin-left: 0.3rem;
+}
+.new{
+    position: absolute;
+    background: rgba(180, 121, 217, 1);
+    color: #fff;
+    font-size: 10px;
+    border-radius: 3px;
+    padding: 2px;
+    margin-top: -14.2rem;
+    margin-left: 0.3rem;
+
+}
+.card-title .p-desc{
     font-size: 10px;
     color: gray;
 }
@@ -14,12 +74,12 @@
     color: yellow;
     background: yellow
 }
-.card-title #p-rate{
+.card-title .p-rate{
     margin-top: -10px;
     color: gray;
     font-size: 10px;
 }
-.card-title #prod{
+.card-title .prod{
     font-size: 10px;
     margin-top: -10px;
 }
@@ -52,18 +112,18 @@
 .store-card img{
     border-radius: 10px;
 }
-/* #store-car{
+#store-car{
     display: none;
 }
 .mob-cont{
     display: none;
-} */
+}
 .view{
     display: none;
 }
-/* #carousel{
+.carousel{
     display: none;
-} */
+}
 
 
 /* Mobile view */
@@ -79,7 +139,10 @@
         display: flex;
         margin-top: 1rem;
         justify-content: space-between;
+        margin-bottom: 2rem;
+        
     }
+  
     .prc{
         display: flex;
         justify-content: space-between;
