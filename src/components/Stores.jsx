@@ -171,7 +171,7 @@ const Stores = () => {
 
         <div className='mobview-cont'>
             
-            <img width={190} height={100} src="https://res.cloudinary.com/ds2swdt9n/image/upload/v1713527850/Link_product-1-1.jpg_e6t392.png" alt="" />
+            <img width={190} height={120} src="https://res.cloudinary.com/ds2swdt9n/image/upload/v1713527850/Link_product-1-1.jpg_e6t392.png" alt="" />
             <p>Snack</p>
             <h5>Zone <br />Sweatshirt</h5>
             <p className='sta-rt'>
@@ -186,7 +186,7 @@ const Stores = () => {
         </div>
 
         <div className='mobview-cont'>
-            <img width={190} height={100} src="https://res.cloudinary.com/ds2swdt9n/image/upload/v1713527850/Link_product-1-1.jpg_e6t392.png" alt="" />
+            <img width={190} height={120} src="https://res.cloudinary.com/ds2swdt9n/image/upload/v1713527850/Link_product-1-1.jpg_e6t392.png" alt="" />
             <p>Snack</p>
             <h5>Zone <br />Sweatshirt</h5>
             <p className='sta-rt'>
