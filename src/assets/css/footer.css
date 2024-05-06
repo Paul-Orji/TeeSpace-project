@@ -45,11 +45,15 @@ footer{
 
 /* Mobile view */
 @media (max-width: 768px) {
+    footer{
+        height: 100vh;
+    }
     .footer-sect {
         flex-direction: column; 
         margin: 2rem; 
+        
     }
-
+  
     .info-sect,
     .links-sect,
     .useful-links,

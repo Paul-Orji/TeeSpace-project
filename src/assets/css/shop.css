@@ -19,6 +19,9 @@
     background-color: #fff;
     color: #000;
 }
+.shop-card #btnn:hover{
+    background: #f4ecec;
+}
 .shop-card .btn-dv{
     margin: -40px 50px;
 }
@@ -36,6 +39,9 @@
     font-size: 12px;
     font-weight: 600;
 }
+.shop2-card #btnn2:hover{
+    background: #f4ecec;
+}
 .sub-txt{
     margin-top: 10rem;
     text-align: center;
@@ -45,6 +51,11 @@
 }
 #carousel{
     display: none;
+}
+.shop-card img:hover,
+.shop2-card img:hover{
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
 }
 
 

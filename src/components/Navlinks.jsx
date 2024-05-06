@@ -12,24 +12,17 @@ const Navlinks = () => {
     const Famenu = () => {
     setMenuOpen(!menuOpen);
 }
-
-
+    
+      
+   
 
   return (
     <>
     
         <div className='navlinks-items'>
-        {/* <Dropdown>
-            <Dropdown.Toggle variant="success" id="dropdown-basic">
-                Dropdown Button
-            </Dropdown.Toggle>
+        
 
-      <Dropdown.Menu>
-        <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
-        <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
-        <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
-      </Dropdown.Menu>
-    </Dropdown> */}
+      
             <div className='mobile-menu'>
                 <FaBars id='menu' onClick={Famenu}/>
                 {menuOpen && (
@@ -42,6 +35,10 @@ const Navlinks = () => {
                     </div>
                 )}
             </div>
+            <div
+                >
+                    
+            </div>
             
             <nav>
                 <a id='act' href="/">Home <FaChevronDown/></a>
@@ -49,6 +46,7 @@ const Navlinks = () => {
                 <a href="/">Shop <FaChevronDown/></a>
                 <a href="/">Blog <FaChevronDown/></a>
                 <a href="/">Pages <FaChevronDown/></a>
+               
             </nav>
 
             

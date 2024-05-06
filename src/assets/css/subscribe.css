@@ -39,6 +39,9 @@
     width: 20%;
 
 }
+#subs-btn:hover{
+    background: rgb(3, 182, 95);
+}
 
 
 /* Mobile view */

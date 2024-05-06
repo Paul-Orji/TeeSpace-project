@@ -70,10 +70,10 @@
     font-weight: 600;
     margin-top: -10px;
 }
-.card-title #FaStar{
+/* .card-title #FaStar{
     color: yellow;
     background: yellow
-}
+} */
 .card-title .p-rate{
     margin-top: -10px;
     color: gray;
@@ -91,6 +91,9 @@
     height: 30px;
     border: none;
     gap: 10px;
+}
+.stores-btn:hover{
+    background: rgb(210, 240, 227);
 }
 .p-div{
     display: flex;

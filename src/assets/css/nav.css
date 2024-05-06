@@ -4,7 +4,10 @@
     align-items: center;
     justify-content: space-between;
     padding: 0 10rem;
-    margin: none;
+    margin: 0;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
     
 }
 .nav-top .social-links a{
@@ -19,10 +22,16 @@
 }
 .nav-btn #login-btn{
     border: none;
-    font-size: 14px;
-    padding: 10px;
+    font-size: 12px;
+    border-radius: 5px;
     margin: 10px;
     background: rgba(248, 248, 248, 1);
+    height: 25px;
+    width: 80px;
+}
+ #login-btn:hover{
+    background: rgba(46, 187, 119, 1);
+    color: #fff;
 }
 .nav-btn #signup-btn{
     border: none;
@@ -35,6 +44,9 @@
     text-align: center;
    
 }
+#signup-btn:hover{
+    background: #201f1f;
+}
 
 /* Mobile View */
 
@@ -42,6 +54,11 @@
     .nav-top {
         flex-direction: column;
         padding: 1rem; 
+        margin-top: -3.3rem ;
+        position: absolute;
+    }
+    .social-links{
+        display: none;
     }
 
 }
