@@ -17,6 +17,9 @@ footer{
     text-decoration: none;
     color: gray;
 }
+.questions .social-links a:hover{
+    color: rgba(46, 187, 119, 1);
+}
 .questions p{
     font-size: 12px;
 }

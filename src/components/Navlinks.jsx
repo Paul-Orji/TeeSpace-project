@@ -75,7 +75,7 @@ const [isHovered1, setIsHovered1] = useState(false);
                 <FaBars id='menu' onClick={Famenu}/>
                 {menuOpen && (
                     <div className="menu-items">
-                        <a id='act' href="/">Home</a>
+                        <a href="/">Home</a>
                         <a href="/">Teespace</a>
                         <a href="/">Shop</a>
                         <a href="/">Blog</a>

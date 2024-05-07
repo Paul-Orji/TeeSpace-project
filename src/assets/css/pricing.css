@@ -12,6 +12,16 @@
     font-weight: 700;
     color: #000;
 }
+.facheck{
+    color: rgba(46, 187, 119, 1);
+    font-size: 10px;
+    margin-right: 10px;
+    
+    
+   
+    
+}
+
 .pricing-card{
     background: #fff;
     height: 21rem;
@@ -64,6 +74,18 @@
     display: flex;
     text-align: center;
     justify-content: center;
+}
+.price-tag h2,
+.price-tag2 h2 {
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+}
+.price-tag p,
+.price-tag2 p {
+    padding: 20px 5px;
+    font-size: 12px;
+    font-family: "Lato", sans-serif;
+    
 }
 .details-sect{
     margin: 2rem 1rem;

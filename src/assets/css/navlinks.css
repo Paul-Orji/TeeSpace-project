@@ -8,6 +8,7 @@
     background: rgba(255, 255, 255, 1);
     width: 100%;
     z-index: 999;
+    padding-left: 15rem;
     /* margin: 0; */
 
 }
@@ -18,18 +19,20 @@
   margin-left: 25%;
 }
 .navlinks-items nav a{
-    margin: 0 15px;
+    margin: 0 10px;
     text-decoration: none;
     font-size: 10px;
     text-transform: uppercase;
     color: #000;
 }
-.navlinks-items nav a :hover{
+.menu-dropdown1 p:hover{
   color: rgba(46, 187, 119, 1);
 }
  #act {
   color:  rgba(46, 187, 119, 1);
-  
+}
+#act .menu-dropdown1{
+  color: #000;
 }
 
 .navlinks-items .nav-icn .FaStar{
@@ -118,7 +121,8 @@
   .menu-items a{
     margin: 15px 15px;
     text-decoration: none;
-    font-size: 10px;
+    font-size: 14px;
+    font-weight: 600;
     text-transform: uppercase;
     color: #000;
     display: block;

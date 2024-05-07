@@ -1,6 +1,7 @@
 import React from 'react';
 import "../assets/css/services.css";
 
+
 const ServicesCard = (props) => {
     const {icon, title, description} = props;
     return (
@@ -40,9 +41,11 @@ const Services = () => {
                       description= "Lorem ipsum dolor sit amet adipisicing elit. Impedit, veniam?"
         />
       </div>
-    
     </div>
-    </>
+    
+     </>
+    
+    
    
    
   )

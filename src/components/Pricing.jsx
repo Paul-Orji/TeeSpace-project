@@ -15,10 +15,10 @@ const PricingTag = (props) =>{
             <p>{user}</p>
           </div>
           <div className='details-sect'>
-            <p><FaCheck/>{details}</p>
-            <p><FaCheck/>{detail1}</p>
-            <p><FaCheck/>{detail2}</p>
-            <p><FaCheck/>{detail3}</p>
+            <p><FaCheck className='facheck'/>{details}</p>
+            <p><FaCheck className='facheck'/>{detail1}</p>
+            <p><FaCheck className='facheck'/>{detail2}</p>
+            <p><FaCheck className='facheck'/>{detail3}</p>
             <button id='pricing-btn' type="button">{button}</button>
           </div>
         </>
@@ -38,12 +38,12 @@ const PricingTagbig = (props) =>{
             <p>{userb}</p>
           </div>
           <div className='details-sect2'>
-            <p><FaCheck/>{detailsb}</p>
-            <p><FaCheck/>{detail1b}</p>
-            <p><FaCheck/>{detail2b}</p>
-            <p><FaCheck/>{detail3b}</p>
-            <p><FaCheck/>{detail4b}</p>
-            <p><FaCheck/>{detail5b}</p>
+            <p><FaCheck className='facheck'/>{detailsb}</p>
+            <p><FaCheck className='facheck'/>{detail1b}</p>
+            <p><FaCheck className='facheck'/>{detail2b}</p>
+            <p><FaCheck className='facheck'/>{detail3b}</p>
+            <p><FaCheck className='facheck'/>{detail4b}</p>
+            <p><FaCheck className='facheck'/>{detail5b}</p>
             <button id='pricing-btn' type="button">{buttonb}</button>
           </div>
         

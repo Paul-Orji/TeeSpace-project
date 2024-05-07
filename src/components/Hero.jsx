@@ -1,5 +1,6 @@
-import React from 'react'
-import "../assets/css/hero.css"
+import React from 'react';
+import "../assets/css/hero.css";
+
 
 
 
@@ -12,14 +13,14 @@ const HeroImage= (props) => {
         <div className='hero-card'>
             <img height="20%" width="99%" src={image} alt="Hero" />
             <div className='card-title'>
-              <h2>{title}</h2>
-              <h2>{title1}</h2>
+              <h4>{title}</h4>
+              <h4>{title1}</h4>
                 <p id='txt'>{text}</p>
                 <p>{text1}</p>
                 <button id='btn' type="button">{button}</button>  
             </div>
 
-                
+        
         </div>
             
         </>
@@ -49,8 +50,6 @@ const Hero = () => {
         </div>
         
         
-        
-      
     </div>
     </>
     
