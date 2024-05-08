@@ -65,6 +65,9 @@
 
 @media (max-width: 768px) {
    
+    .mobile-container{
+        display: block;
+    }
     .stats {
         flex-direction: column; 
         margin: 2rem; 
