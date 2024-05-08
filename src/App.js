@@ -10,7 +10,6 @@ import Clients from './components/Clients';
 import Pricing from './components/Pricing';
 import Subscribes from './components/Subscribes';
 import Footer from './components/Footer';
-// import Navlink from './components/Navlink';
 
 function App() {
   return (
