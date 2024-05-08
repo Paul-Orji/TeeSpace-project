@@ -49,9 +49,9 @@
         row-gap: -0.5rem;
         z-index: 1;
     }
-    /* .hero-card{
-        margin-top: 3rem;
-    } */
+    .hero-card{
+        margin-top: -3rem;
+    }
     
     .hero-card img {
         width: 100%; 
@@ -69,7 +69,7 @@
     
     #btn {
         width: 100%; 
-        margin-top: 2rem; 
+        margin-top: 3rem; 
     }
     
 }
