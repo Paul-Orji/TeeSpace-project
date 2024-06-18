@@ -4,6 +4,7 @@ import { FaChevronDown, FaBars, FaSearch, FaRegStar} from 'react-icons/fa';
 import  { useState } from 'react';
 import {Link} from "react-router-dom"
 import {FaUser} from 'react-icons/fa';
+import { FaDroplet } from 'react-icons/fa6';
 // import Dropdown from 'react-bootstrap/Dropdown';
 
 
@@ -206,6 +207,11 @@ const [isHovered1, setIsHovered1] = useState(false);
         <div className='serv'>
             <h3>Services</h3>
             <p>Home &#8212; Services</p>
+        </div>
+
+        <div>
+            <h6><FaDroplet/><img src="" alt="" />All the features you need</h6>
+            <h3>Fast and Quality Service</h3>
         </div>
       
     
