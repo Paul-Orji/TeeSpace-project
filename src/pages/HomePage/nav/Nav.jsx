@@ -1,5 +1,5 @@
 import React from 'react';
-import "../assets/css/nav.css";
+import "../nav/nav.css";
 import {FaTwitter, FaFacebook, FaInstagram, FaYoutube} from 'react-icons/fa';
 
 

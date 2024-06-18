@@ -1,12 +1,15 @@
 import React from 'react';
-import "../assets/css/navlinks.css";
+import "../HomePage/nav-links/navlinks.css";
+import "../HomePage/nav/nav.css"
 import { FaChevronDown, FaBars, FaSearch, FaRegStar} from 'react-icons/fa';
 import  { useState } from 'react';
+import {Link} from "react-router-dom"
+import {FaTwitter, FaFacebook, FaInstagram, FaYoutube} from 'react-icons/fa';
 // import Dropdown from 'react-bootstrap/Dropdown';
 
 
 
-const Navlinks = () => {
+const Layout = () => {
     const [menuOpen, setMenuOpen] = useState(false);
 
     const Famenu = () => {
@@ -66,6 +69,22 @@ const [isHovered1, setIsHovered1] = useState(false);
 
   return (
     <>
+    <div className='nav-top'>
+        <div className='social-links'>
+            <a href="/"><FaTwitter/></a>
+            <a href="/"><FaFacebook/></a>
+            <a href="/"><FaInstagram/></a>
+            <a href="/"><FaYoutube/></a>
+        </div>
+        <div><h6>&#x1f525;Free shipping on all U.S orders &#36;50+</h6></div>
+        
+        <div className='nav-btn'>
+          <button id='login-btn' type="button">Login</button>
+          <button id='signup-btn' type="button">Sign Up</button>
+        </div>
+        
+      
+    </div>
     
         <div className='navlinks-items'>
         
@@ -75,11 +94,12 @@ const [isHovered1, setIsHovered1] = useState(false);
                 <FaBars id='menu' onClick={Famenu}/>
                 {menuOpen && (
                     <div className="menu-items">
-                        <a href="/">Home</a>
-                        <a href="/">Teespace</a>
-                        <a href="/">Shop</a>
-                        <a href="/">Blog</a>
-                        <a href="/">Pages</a>
+                        <Link to ="/">Home</Link>
+                        <Link to ="/cart">Cart</Link>
+                        <Link to ="/pricing-page">Pricing-page</Link>
+                        <Link to ="/services-page">Services-Page</Link>
+                        <Link to ="/shop-details">Shop-Details</Link>
+                       
                     </div>
                 )}
             </div>
@@ -90,7 +110,7 @@ const [isHovered1, setIsHovered1] = useState(false);
             
             <nav>
                 {/* Menu 1 */}
-                <a id='act' href="/"
+                <Link id='act' to="/"
                     onMouseEnter={handleMouseEnter}
                     onMouseLeave={handleMouseLeave}
                     style={{ position: 'relative', display: 'inline-block' }}
@@ -102,14 +122,14 @@ const [isHovered1, setIsHovered1] = useState(false);
                         <p>Lorem, ipsum.</p>
                     </div>
                 )}
-                </a>
+                </Link>
 
                 {/* Menu 2 */}
-                <a href="/"
+                <Link to="/shop-details"
                     onMouseEnter={handleMouseEnter1}
                     onMouseLeave={handleMouseLeave1}
                     style={{ position: 'relative', display: 'inline-block' }}
-                    >Teespace <FaChevronDown/>
+                    >Shop <FaChevronDown/>
                     {isHovered1 &&(
                     <div className='menu-dropdown1'>
                         <p>Lorem, ipsum.</p>
@@ -117,14 +137,14 @@ const [isHovered1, setIsHovered1] = useState(false);
                         <p>Lorem, ipsum.</p>
                     </div>
                 )}
-                </a>
+                </Link>
 
                 {/* Menu 3 */}
-                <a href="/"
+                <Link to="/Cart"
                     onMouseEnter={handleMouseEnter2}
                     onMouseLeave={handleMouseLeave2}
                     style={{ position: 'relative', display: 'inline-block' }}
-                    >Shop <FaChevronDown/>
+                    >Cart <FaChevronDown/>
                     {isHovered2 &&(
                     <div className='menu-dropdown1'>
                         <p>Lorem, ipsum.</p>
@@ -132,13 +152,13 @@ const [isHovered1, setIsHovered1] = useState(false);
                         <p>Lorem, ipsum.</p>
                     </div>
                 )}
-                </a>
+                </Link>
                 {/* Menu 4 */}
-                <a href="/"
+                <Link to="/services-page"
                     onMouseEnter={handleMouseEnter3}
                     onMouseLeave={handleMouseLeave3}
                     style={{ position: 'relative', display: 'inline-block' }}
-                    >Blog <FaChevronDown/>
+                    >Services <FaChevronDown/>
                     {isHovered3 &&(
                     <div className='menu-dropdown1'>
                         <p>Lorem, ipsum.</p>
@@ -146,14 +166,14 @@ const [isHovered1, setIsHovered1] = useState(false);
                         <p>Lorem, ipsum.</p>
                     </div>
                 )}
-                </a>
+                </Link>
 
                 {/* Menu 5 */}
-                <a href="/"
+                <Link to="/pricing-page"
                     onMouseEnter={handleMouseEnter4}
                     onMouseLeave={handleMouseLeave4}
                     style={{ position: 'relative', display: 'inline-block' }}
-                    >Pages <FaChevronDown/>
+                    >Pricing<FaChevronDown/>
                     {isHovered4 &&(
                     <div className='menu-dropdown1'>
                         <p>Lorem, ipsum.</p>
@@ -161,7 +181,7 @@ const [isHovered1, setIsHovered1] = useState(false);
                         <p>Lorem, ipsum.</p>
                     </div>
                 )}
-                </a>
+                </Link>
             </nav>
 
                 <img id='navimg' src="https://res.cloudinary.com/ds2swdt9n/image/upload/v1713527860/Link_logo-black.png_tn2q3i.png" height="30px" alt="Teespace logo" />
@@ -192,4 +212,4 @@ const [isHovered1, setIsHovered1] = useState(false);
   )
 }
 
-export default Navlinks
+export default Layout

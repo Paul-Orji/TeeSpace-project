@@ -1,5 +1,5 @@
 import React from 'react'
-import '../assets/css/pricing.css'
+import '../pricing/pricing.css'
 import {FaCheck} from 'react-icons/fa'
 
 

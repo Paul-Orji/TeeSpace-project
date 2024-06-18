@@ -1,5 +1,5 @@
 import React from 'react'
-import "../assets/css/stores.css"
+import "../stores/stores.css"
 import {FaStar, FaShoppingCart} from 'react-icons/fa'
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';

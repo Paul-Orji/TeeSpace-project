@@ -1,5 +1,5 @@
 import React from 'react';
-import '../assets/css/subscribe.css';
+import './subscribe.css';
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import InputGroup from 'react-bootstrap/InputGroup';

@@ -1,5 +1,5 @@
 import React from 'react'
-import '../assets/css/features.css'
+import '../features/features.css'
 
 
 const FeatureCard = (props) =>{

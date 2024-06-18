@@ -1,5 +1,5 @@
 import React from 'react';
-import "../assets/css/services.css";
+import "../servic/services.css";
 
 
 const ServicesCard = (props) => {
