@@ -5,6 +5,9 @@ import AddcartPage from './pages/Cart/Cart';
 import PricingPage from './pages/PricingPage/Pricing';
 import ServicesPage from './pages/ServicesPage/Services'
 import Home from './pages/HomePage/Home'
+import BlogDetails from './pages/BlogDetails/Blog'
+import About from './pages/About/About'
+import OurTeam from './pages/OurTeam/Team'
 
 
 
@@ -35,6 +38,9 @@ function App() {
           <Route path='pricing-page' element={<PricingPage/>}/>
           <Route path='services-page' element={<ServicesPage/>}/>
           <Route path='cart' element={<AddcartPage/>}/>
+          <Route path='blog-details' element={<BlogDetails/>}/>
+          <Route path='about' element={<About/>}/>
+          <Route path='our-team' element={<OurTeam/>}/>
           {/* <Route path='*' element={NotFound} /> */}
         </Routes>
    

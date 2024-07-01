@@ -107,7 +107,7 @@ const [isHovered1, setIsHovered1] = useState(false);
             return(
                 <>
                 <div className='prnt-card'>
-                    <img height={300} src={simg} alt="" />
+                   <a href="/"><img height={300} src={simg} alt="" /></a> 
                     <h6 className='card-text'>{sbody}</h6>
                     <h6 className='card-text2'>{sbody2}</h6>
                 </div>

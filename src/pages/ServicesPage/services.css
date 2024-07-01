@@ -98,6 +98,11 @@
     background-color: #fff;
     
 }
+.icn-divv button:hover{
+  border: solid 1px #13e07d;
+  color: #2EBB77;
+  
+}
 .icn-divv .search-icn,
 .icn-divv .user-icn {
     margin: 0 1rem;
@@ -221,6 +226,11 @@
     font-size: 12px;
     font-weight: 700;
    }
+   #qual-btn:hover{
+    background-color: #000;
+    color: #fff;
+  
+   }
    /* fast and quality service  */
 
    .qual-tag{
@@ -283,6 +293,10 @@
  }
  .shrt-dv p{
   font-size: 12px;
+ }
+ .prnt-card a :hover{
+  box-shadow: 5px 5px 15px 3px rgba(0, 0, 0, 0.5);
+ 
  }
  .shirt-prnt{
   display: flex;

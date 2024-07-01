@@ -1,13 +1,13 @@
-import React from 'react';
-import "../nav-links/navlinks.css";
+import React from 'react'
+import "../HomePage/nav-links/navlinks.css";
 import { FaChevronDown, FaBars, FaSearch, FaRegStar} from 'react-icons/fa';
 import  { useState } from 'react';
 import {Link} from "react-router-dom"
-// import Dropdown from 'react-bootstrap/Dropdown';
 
 
 
-const Navlinks = () => {
+
+const Blog = () => {
     const [menuOpen, setMenuOpen] = useState(false);
 
     const Famenu = () => {
@@ -267,4 +267,4 @@ const [isHovered1, setIsHovered1] = useState(false);
   )
 }
 
-export default Navlinks
+export default Blog
