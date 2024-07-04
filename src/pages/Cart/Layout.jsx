@@ -1,6 +1,5 @@
 import React from 'react';
-import "../HomePage/nav-links/navlinks.css";
-import "../HomePage/nav/nav.css"
+import "../Cart/layout.css"
 import { FaChevronDown, FaBars, FaSearch, FaRegStar} from 'react-icons/fa';
 import  { useState } from 'react';
 import {Link} from "react-router-dom"
@@ -69,7 +68,7 @@ const [isHovered1, setIsHovered1] = useState(false);
 
   return (
     <>
-    <div className='nav-top'>
+    <div className='nav-top1'>
         <div className='social-links'>
             <a href="/"><FaTwitter/></a>
             <a href="/"><FaFacebook/></a>
@@ -86,7 +85,7 @@ const [isHovered1, setIsHovered1] = useState(false);
       
     </div>
     
-        <div className='navlinks-items'>
+        <div className='navlinks-items1'>
         
 
       

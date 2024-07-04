@@ -1,0 +1,151 @@
+.pric{
+    margin-top: 5rem;
+    text-align: center;
+    background-color: #F5F5F5;
+    padding: 40px;
+}
+.pric h3{
+  font-weight: 700;
+}
+.pric p{
+  font-size: 12px;
+}
+/* choose plan  */
+.choose-pln{
+    display: flex;
+    margin: 10rem 10rem;
+    position: relative;
+}
+.div1{
+    margin-top: 40px;
+}
+.div1 .p-hd{
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.div1 h3{
+    font-weight: 700;
+}
+.faflag{
+    color: rgba(46, 187, 119, 1);
+}
+.div1 .p1{
+    font-size: 12px;
+    color: grey;
+    margin:20px 0;
+}
+#div1-link{
+    color: rgba(46, 187, 119, 1);
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 700;
+}
+.div2{
+    display: flex;
+    margin-left: 6rem;
+    padding: 40px ;
+    border-radius: 5px;
+    background-color:rgba(255, 255, 255, 1);
+    box-shadow: 5px 5px 1px 1px  rgba(0, 0, 0, 0.5);
+    z-index: 5;
+    
+    
+}
+#circle{
+    z-index: 2;
+    margin-top: -4rem;
+    margin-left: 42rem;
+    position: absolute;
+}
+#circle1{
+    z-index: 2;
+    margin-top: 15rem;
+    margin-left: 18rem;
+    position: absolute;
+}
+.div2-a h6{
+    font-weight: 700;
+}
+.div2-a p{
+    font-size: 12px;
+    margin: 10px 0;
+    font-weight: 400;
+}
+#div2a-btn{
+    margin-top: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(46, 187, 119, 1);
+    font-size: 12px;
+    font-weight: 500;
+    color: #fff;
+    width: 100%;
+    height: 15%;
+
+}
+.div2 .div2-b{
+    margin-left: 1rem;
+}
+.div2-b{
+    padding-left: 40px;
+}
+.div2-b .access{
+    font-size: 12px;
+    font-weight: 700;
+    margin: 0;
+}
+.div2-b .access1{
+    font-size: 12px;
+    font-weight: 700;
+    margin: 0;
+    margin-top: 1.5rem;
+}
+.div2-b .access2{
+    font-size: 12px;
+    color: grey;
+}
+.p-slash{
+    display: flex;
+}
+.p-slash h3{
+    font-weight: 700;
+    margin-top: 2.5rem;
+}
+.p-slash p{
+    text-decoration: line-through;
+    margin-top: 3rem;
+    margin-left: 1rem;
+    color: grey;
+}
+.btn-dv{
+    background-color: rgb(234, 230, 230);
+    border-radius: 5px;
+    padding-right: 5px;
+}
+.btn-1{
+    background-color: rgb(234, 230, 230);
+    border: none;
+    font-size: 12px;
+    height: 30px;
+    width: 100px;
+    border-radius: 5px;
+    margin: 0 5px;
+    margin-left: -5px;
+}
+.btn-1:hover{
+    background-color: rgb(218, 210, 210);
+}
+.btn-2{
+    border: none;
+    font-size: 12px;
+    font-weight: 600;
+    height: 25px;
+    width: 100px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+.btn-2:hover{
+    background-color:rgb(237, 237, 229);
+}
