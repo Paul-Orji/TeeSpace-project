@@ -62,6 +62,33 @@ const [isHovered1, setIsHovered1] = useState(false);
         const handleMouseLeave4 = () => {
             setIsHovered4(false);
         }
+
+        // Menu 6
+        const [isHovered5, setIsHovered5] = useState(false);
+        const handleMouseEnter5 = () => {
+            setIsHovered5(true)
+        };
+        const handleMouseLeave5 = () => {
+            setIsHovered5(false);
+        }
+
+                // Menu 7
+                const [isHovered6, setIsHovered6] = useState(false);
+                const handleMouseEnter6 = () => {
+                    setIsHovered6(true)
+                };
+                const handleMouseLeave6 = () => {
+                    setIsHovered6(false);
+                }
+
+                // Menu 8
+                const [isHovered7, setIsHovered7] = useState(false);
+                const handleMouseEnter7 = () => {
+                    setIsHovered7(true)
+                };
+                const handleMouseLeave7 = () => {
+                    setIsHovered7(false);
+                }
     
       
    
@@ -98,6 +125,7 @@ const [isHovered1, setIsHovered1] = useState(false);
                         <Link to ="/pricing-page">Pricing-page</Link>
                         <Link to ="/services-page">Services-Page</Link>
                         <Link to ="/shop-details">Shop-Details</Link>
+                        <Link to ="/blog-details">Blog</Link>
                        
                     </div>
                 )}
@@ -174,6 +202,51 @@ const [isHovered1, setIsHovered1] = useState(false);
                     style={{ position: 'relative', display: 'inline-block' }}
                     >Pricing<FaChevronDown/>
                     {isHovered4 &&(
+                    <div className='menu-dropdown1'>
+                        <p>Lorem, ipsum.</p>
+                        <p>Lorem, ipsum.</p>
+                        <p>Lorem, ipsum.</p>
+                    </div>
+                )}
+                </Link>
+            
+                {/* Menu 6  */}
+                <Link to="/blog-details"
+                    onMouseEnter={handleMouseEnter5}
+                    onMouseLeave={handleMouseLeave5}
+                    style={{ position: 'relative', display: 'inline-block' }}
+                    >Blog<FaChevronDown/>
+                    {isHovered5 &&(
+                    <div className='menu-dropdown1'>
+                        <p>Lorem, ipsum.</p>
+                        <p>Lorem, ipsum.</p>
+                        <p>Lorem, ipsum.</p>
+                    </div>
+                )}
+                </Link>
+
+                {/* Menu 7 */}
+                <Link to="/about"
+                    onMouseEnter={handleMouseEnter6}
+                    onMouseLeave={handleMouseLeave6}
+                    style={{ position: 'relative', display: 'inline-block' }}
+                    >About Us<FaChevronDown/>
+                    {isHovered6 &&(
+                    <div className='menu-dropdown1'>
+                        <p>Lorem, ipsum.</p>
+                        <p>Lorem, ipsum.</p>
+                        <p>Lorem, ipsum.</p>
+                    </div>
+                )}
+                </Link>
+
+                {/* Menu 8 */}
+                <Link to="/our-team"
+                    onMouseEnter={handleMouseEnter7}
+                    onMouseLeave={handleMouseLeave7}
+                    style={{ position: 'relative', display: 'inline-block' }}
+                    >Our Team<FaChevronDown/>
+                    {isHovered7 &&(
                     <div className='menu-dropdown1'>
                         <p>Lorem, ipsum.</p>
                         <p>Lorem, ipsum.</p>

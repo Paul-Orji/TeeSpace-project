@@ -1,6 +1,8 @@
 import React from 'react'
 import './pricing.css'
-import { FaChevronRight, FaFlag, FaCheck } from 'react-icons/fa'
+import { FaChevronRight, FaFlag, FaCheck, FaDotCircle} from 'react-icons/fa'
+import Pricing from '../HomePage/pricing/Pricing'
+import Footer from '../HomePage/footer/Footer'
 // import { useState } from 'react';
 // import ButtonGroup from 'react-bootstrap/ButtonGroup';
 // import ToggleButton from 'react-bootstrap/ToggleButton';
@@ -138,6 +140,57 @@ const PricingMain = () => {
             </div>
 
         </div>
+
+        <Pricing/>
+
+        {/* Chhose a Plan */}
+
+        <div className='choose-plan'> 
+          <div className='chos-pln'>
+            <img height={300} src="https://res.cloudinary.com/ds2swdt9n/image/upload/v1719817113/pricing-plans-1.png_wwgrzn.png" alt="" />
+            <h3>Choose a plan & get started</h3>
+            <p className='pln-dsc'>
+                Printing organization mottos While the Internet might assume <br />
+                control of numerous parts of printing, a few things are as yet <br />
+                favored on paper.
+            </p>
+          </div>
+          <div>
+            <div className='starter'>
+              <h5><FaDotCircle className='dot-c'/>Starter</h5>
+              <p className='p-des'>Lorem ipsum dolor sit amet consectetur adipisicing. <br /> Necessitatibus expedita rem animi ipsum?</p>
+              <div className='prcc'>
+                <p className='amt'>$37</p>
+                <p>/month</p>
+              </div>
+
+            </div>
+            <div className='starter'>
+              <h5><FaDotCircle className='dot'/>Standard</h5>
+              <p className='p-des'>Lorem ipsum dolor sit amet consectetur adipisicing. <br /> Necessitatibus expedita rem animi ipsum?</p>
+              <div className='prcc'>
+                <p className='amt'>$67</p>
+                <p>/month</p>
+              </div>
+
+            </div>
+            <div className='starter'>
+              <h5><FaDotCircle className='dot'/>Pro</h5>
+              <p className='p-des'>Lorem ipsum dolor sit amet consectetur adipisicing. <br /> Necessitatibus expedita rem animi ipsum?</p>
+              <div className='prcc'>
+                <p className='amt'>$99</p>
+                <p>/month</p>
+              </div>
+
+            </div>
+            <button id='plan-btn' type="button">Purchase Now</button>
+          </div>
+
+        </div>
+
+        <Footer/>
+
+        
    
    </>
   )
