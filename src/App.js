@@ -8,6 +8,7 @@ import Home from './pages/HomePage/Home'
 import BlogDetails from './pages/BlogDetails/Blog'
 import About from './pages/About/About'
 import OurTeam from './pages/OurTeam/Team'
+import ServiceDetailsmain from './pages/ServiceDetails/ServiceDetailsmain';
 
 
 
@@ -41,6 +42,8 @@ function App() {
           <Route path='blog-details' element={<BlogDetails/>}/>
           <Route path='about' element={<About/>}/>
           <Route path='our-team' element={<OurTeam/>}/>
+          <Route path='service-detailsmain' element={<ServiceDetailsmain/>}/>
+
           {/* <Route path='*' element={NotFound} /> */}
         </Routes>
    

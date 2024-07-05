@@ -93,7 +93,7 @@ const [isHovered1, setIsHovered1] = useState(false);
                     <div>
                         <h6>{qhead}</h6>
                         <p>{qbody}</p>
-                        <button id='qual-btn' type="button">{qbutton}</button>
+                        <Link to="/service-detailsmain" href=""><button id='qual-btn' type="button">{qbutton}</button></Link>
                     </div>
                 </div>
                 
