@@ -117,7 +117,8 @@ const [isHovered1, setIsHovered1] = useState(false);
                 >
                     
             </div>
-            
+            <img id='navimg' src="https://res.cloudinary.com/ds2swdt9n/image/upload/v1713527860/Link_logo-black.png_tn2q3i.png" height="30px" alt="Teespace logo" />
+
             <nav>
                 {/* Menu 1 */}
                 <Link id='act' to="/"
@@ -239,7 +240,6 @@ const [isHovered1, setIsHovered1] = useState(false);
                 </Link>
             </nav>
 
-                <img id='navimg' src="https://res.cloudinary.com/ds2swdt9n/image/upload/v1713527860/Link_logo-black.png_tn2q3i.png" height="30px" alt="Teespace logo" />
         
             <div className="search-container">
                 <input id='search-cont' type="text" placeholder="Search..." />

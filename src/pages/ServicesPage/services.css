@@ -33,10 +33,10 @@
   
   }
   .navlinks-itemss nav{
-    margin: 0 -30rem;
+    margin: 0 -1rem;
   }
-  .navlinks-itemss img{
-    margin-left: 50%;
+  #navimgg{
+    margin-left: -5rem;
   }
   .navlinks-itemss nav a{
       margin: 0 10px;

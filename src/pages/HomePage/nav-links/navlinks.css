@@ -13,10 +13,11 @@
 
 }
 .navlinks-items nav{
-  margin: 0 -10rem;
+  margin: 0 1.5rem;
+  display: inline-flex;
 }
-.navlinks-items img{
-  margin-left: 25%;
+#navimg{
+  margin-left: -5rem;
 }
 .navlinks-items nav a{
     margin: 0 10px;

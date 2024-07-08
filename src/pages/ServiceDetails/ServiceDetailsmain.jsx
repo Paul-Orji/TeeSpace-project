@@ -5,6 +5,7 @@ const ServiceDetailsmain = () => {
   return (
     <>
     <Pricing/>
+    
     </>
   )
 }
