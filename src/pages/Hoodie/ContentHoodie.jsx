@@ -38,7 +38,7 @@ const ContentHoodie = () => {
     <img height={300} src="https://res.cloudinary.com/ds2swdt9n/image/upload/v1721284945/hoodie_temp_weczbc.jpg" alt="" />
 
   </div>
-      <div className="container">
+      <div className="container containerr">
       <div className="scrollable left">
         <div className="content">
           {/* Your left content here */}
