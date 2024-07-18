@@ -5,10 +5,7 @@ import  { useState } from 'react';
 import {Link} from "react-router-dom"
 import {FaUser} from 'react-icons/fa';
 import Accordion from 'react-bootstrap/Accordion';
-import {FaTwitter, FaFacebook, FaInstagram, FaYoutube} from 'react-icons/fa';
-import Button from 'react-bootstrap/Button';
-import Form from 'react-bootstrap/Form';
-import InputGroup from 'react-bootstrap/InputGroup';
+
 
 
 
@@ -23,14 +20,14 @@ const Main = () => {
 // OnHover menu list desktop-view
 
         // Menu 1
-const [isHovered, setIsHovered] = useState(false);
-    const handleMouseEnter = () => {
-            setIsHovered(true)
-        };
+// const [isHovered, setIsHovered] = useState(false);
+//     const handleMouseEnter = () => {
+//             setIsHovered(true)
+//         };
 
-    const handleMouseLeave = () => {
-        setIsHovered(false);
-      };
+//     const handleMouseLeave = () => {
+//         setIsHovered(false);
+//       };
 
         // Menu 2
 const [isHovered1, setIsHovered1] = useState(false);
@@ -43,58 +40,23 @@ const [isHovered1, setIsHovered1] = useState(false);
   };
 
     // Menu 3
-    const [isHovered2, setIsHovered2] = useState(false);
-        const handleMouseEnter2 = () => {
-            setIsHovered2(true)
-        };
-        const handleMouseLeave2 = () => {
-            setIsHovered2(false);
-        }
-
+  
     // Menu 4
-    const [isHovered3, setIsHovered3] = useState(false);
-        const handleMouseEnter3 = () => {
-            setIsHovered3(true)
-        };
-        const handleMouseLeave3 = () => {
-            setIsHovered3(false);
-        }
+  
 
     // Menu 5
-    const [isHovered4, setIsHovered4] = useState(false);
-        const handleMouseEnter4 = () => {
-            setIsHovered4(true)
-        };
-        const handleMouseLeave4 = () => {
-            setIsHovered4(false);
-        }
+    // const [isHovered4, setIsHovered4] = useState(false);
+    //     const handleMouseEnter4 = () => {
+    //         setIsHovered4(true)
+    //     };
+    //     const handleMouseLeave4 = () => {
+    //         setIsHovered4(false);
+    //     }
 
         // Menu 6
-        const [isHovered5, setIsHovered5] = useState(false);
-        const handleMouseEnter5 = () => {
-            setIsHovered5(true)
-        };
-        const handleMouseLeave5 = () => {
-            setIsHovered5(false);
-        }
+    
 
-                // Menu 7
-                const [isHovered6, setIsHovered6] = useState(false);
-                const handleMouseEnter6 = () => {
-                    setIsHovered6(true)
-                };
-                const handleMouseLeave6 = () => {
-                    setIsHovered6(false);
-                }
-
-                // Menu 8
-                const [isHovered7, setIsHovered7] = useState(false);
-                const handleMouseEnter7 = () => {
-                    setIsHovered7(true)
-                };
-                const handleMouseLeave7 = () => {
-                    setIsHovered7(false);
-                }
+          
 
         const ServiceList = (props) =>{
             const {head, iconn, descp} =props;
@@ -176,70 +138,37 @@ const [isHovered1, setIsHovered1] = useState(false);
                 >
                     
             </div>
-            <img id='navimgg' src="https://res.cloudinary.com/ds2swdt9n/image/upload/v1713527860/Link_logo-black.png_tn2q3i.png" height="30px" alt="Teespace logo" />
+            <img id='navimgg' height={100} src="https://res.cloudinary.com/ds2swdt9n/image/upload/c_crop,w_420,h_250/v1720446811/elegance-apparel-removebg-preview_gg1elk.png" />
 
             <nav>
                 {/* Menu 1 */}
-                <Link id='act' to="/"
-                    onMouseEnter={handleMouseEnter}
-                    onMouseLeave={handleMouseLeave}
-                    style={{ position: 'relative', display: 'inline-block' }}
-                    >Home <FaChevronDown/>
-                    {isHovered &&(
-                    <div className='menu-dropdown1'>
-                        <p>Lorem, ipsum.</p>
-                        <p>Lorem, ipsum.</p>
-                        <p>Lorem, ipsum.</p>
-                    </div>
-                )}
-                </Link>
+                <Link id='act' to="/">Home </Link>
 
                 {/* Menu 2 */}
-                <Link to="/shop-details"
+                <Link 
                     onMouseEnter={handleMouseEnter1}
                     onMouseLeave={handleMouseLeave1}
                     style={{ position: 'relative', display: 'inline-block' }}
                     >Categories <FaChevronDown/>
                     {isHovered1 &&(
                     <div className='menu-dropdown1'>
-                        <p>Lorem, ipsum.</p>
-                        <p>Lorem, ipsum.</p>
-                        <p>Lorem, ipsum.</p>
+                        <Link to='/Hoodies'><p>Hoodies</p></Link>
+                        <p>Sweater</p>
+                        <p>Tees</p>
+                        <p>Tanktop</p>
+                        <p>Designers</p>
                     </div>
                 )}
                 </Link>
 
                 {/* Menu 3 */}
-                <Link to="/Cart"
-                    onMouseEnter={handleMouseEnter2}
-                    onMouseLeave={handleMouseLeave2}
-                    style={{ position: 'relative', display: 'inline-block' }}
-                    >Cart <FaChevronDown/>
-                    {isHovered2 &&(
-                    <div className='menu-dropdown1'>
-                        <p>Lorem, ipsum.</p>
-                        <p>Lorem, ipsum.</p>
-                        <p>Lorem, ipsum.</p>
-                    </div>
-                )}
-                </Link>
+                <Link to="/Cart">Cart </Link>
+
                 {/* Menu 4 */}
-                <Link to="/services-page"
-                    onMouseEnter={handleMouseEnter3}
-                    onMouseLeave={handleMouseLeave3}
-                    style={{ position: 'relative', display: 'inline-block' }}
-                    >Services <FaChevronDown/>
-                    {isHovered3 &&(
-                    <div className='menu-dropdown1'>
-                        <p>Lorem, ipsum.</p>
-                        <p>Lorem, ipsum.</p>
-                        <p>Lorem, ipsum.</p>
-                    </div>
-                )}
-                </Link>
+                <Link to="/services-page">Services </Link>
 
                 {/* Menu 5 */}
-                <Link to="/pricing-page"
+                {/* <Link to="/pricing-page"
                     onMouseEnter={handleMouseEnter4}
                     onMouseLeave={handleMouseLeave4}
                     style={{ position: 'relative', display: 'inline-block' }}
@@ -251,52 +180,16 @@ const [isHovered1, setIsHovered1] = useState(false);
                         <p>Lorem, ipsum.</p>
                     </div>
                 )}
-                </Link>
+                </Link> */}
 
                 {/* Menu 6  */}
-                <Link to="/blog-details"
-                    onMouseEnter={handleMouseEnter5}
-                    onMouseLeave={handleMouseLeave5}
-                    style={{ position: 'relative', display: 'inline-block' }}
-                    >Blog<FaChevronDown/>
-                    {isHovered5 &&(
-                    <div className='menu-dropdown1'>
-                        <p>Lorem, ipsum.</p>
-                        <p>Lorem, ipsum.</p>
-                        <p>Lorem, ipsum.</p>
-                    </div>
-                )}
-                </Link>
+                <Link to="/blog-details">Blog</Link>
 
                 {/* Menu 7 */}
-                <Link to="/about"
-                    onMouseEnter={handleMouseEnter6}
-                    onMouseLeave={handleMouseLeave6}
-                    style={{ position: 'relative', display: 'inline-block' }}
-                    >About Us<FaChevronDown/>
-                    {isHovered6 &&(
-                    <div className='menu-dropdown1'>
-                        <p>Lorem, ipsum.</p>
-                        <p>Lorem, ipsum.</p>
-                        <p>Lorem, ipsum.</p>
-                    </div>
-                )}
-                </Link>
+                <Link to="/about">About Us</Link>
 
                 {/* Menu 8 */}
-                <Link to="/our-team"
-                    onMouseEnter={handleMouseEnter7}
-                    onMouseLeave={handleMouseLeave7}
-                    style={{ position: 'relative', display: 'inline-block' }}
-                    >Our Team<FaChevronDown/>
-                    {isHovered7 &&(
-                    <div className='menu-dropdown1'>
-                        <p>Lorem, ipsum.</p>
-                        <p>Lorem, ipsum.</p>
-                        <p>Lorem, ipsum.</p>
-                    </div>
-                )}
-                </Link>
+                <Link to="/our-team">Our Team</Link>
             </nav>
 
 
@@ -478,93 +371,7 @@ const [isHovered1, setIsHovered1] = useState(false);
                
             </div>
 
-            {/* Footer section  */}
-
-            <footer>
-       <div className='footer-sect'>
-
-        <div className='info-sect'>
-            <img height={30} src="https://res.cloudinary.com/ds2swdt9n/image/upload/v1713527860/Link_logo-black.png_tn2q3i.png" alt="TeeSpace logo" />
-            <p>hello@teespace.io</p>
-            <h6>+020360383996</h6>
-            <p>3665 Paseo Place, Suite 0960 <br />San Diego</p>
-        </div>
-        <div className='links-sect'>
-            <h6>Information</h6>
-            <div className='link'>
-                <a href="/">About Us</a>
-                <a href="/">Our Blog</a>
-                <a href="/">Start a Return</a>
-                <a href="/">Contact Us</a>
-                <a href="/">Shipping FAQ's</a>
-                </div>
-            
-        </div> 
-        <div className='links-sect'>
-            <h6>Services</h6>
-            <div className='link'>
-                <a href="/">Printing Services</a>
-                <a href="/">Digital Scanning</a>
-                <a href="/">Design Services</a>
-                <a href="/">Copying Services</a>
-                <a href="/">Print on Demand</a>
-                </div>
-            
-        </div> 
-        <div className='useful-links'>
-            <h6>Useful Links</h6>
-            <div className='link'>
-                <a href="/">My Account</a>
-                <a href="/">Print Provider</a>
-                <a href="/">Become a Partner</a>
-                <a href="/">Custom Products</a>
-                <a href="/">Make your own Shirts</a>
-            </div>
-            
-        </div>
-        <div className='questions'>
-            <h6>Newsletter</h6>
-            <p>Subscribe to our newsletter.</p>
-        
-        <InputGroup id='frm' className="mb-3">
-        <div>
-            <Form.Control
-                placeholder="Your email address"
-                id='subs-input2'
-                aria-describedby="basic-addon2"
-            /> 
-        </div>
-        <div>
-            <Button id="subs-btn2">
-                Subscribe
-            </Button> 
-        </div>
-            
-           
-        </InputGroup>
-
-
-
-        </div>
-      
-        </div> 
-        <div className='foot'>
-            <div>
-                <p className='footer-p'>&#169;2022 TeeSpace. All rights reserved.</p>
-            </div>
-            
-            <img id='footer-imgg' height={20} src="https://res.cloudinary.com/ds2swdt9n/image/upload/v1713527848/footer-payment-method.png_abk6xc.png" alt="Supported payment method" />
-            <div className='social-links'>
-            <a href="/"><FaTwitter/></a>
-            <a href="/"><FaFacebook/></a>
-            <a href="/"><FaInstagram/></a>
-            <a href="/"><FaYoutube/></a>
-            </div>
-        </div>
-        
-        
-        
-    </footer>
+          
     
     </>
     

@@ -1,6 +1,6 @@
 .feature-img{
     display: flex;
-    margin: 0 10rem;
+    margin: 0 5rem;
 }
 .feature-card-title{
     margin-top: -7rem;
@@ -26,7 +26,7 @@
 }
 .templates{
     display: flex;
-    margin: 3rem 10rem;
+    margin: 3rem 5rem;
     column-gap: 4em;
     background: rgba(245, 245, 245, 1);
     border-radius: 10px;
@@ -47,14 +47,14 @@
 .templates #temp-btn{
     width: 50%;
     height: 12%;
-    background: rgba(46, 187, 119, 1);
+    background: rgb(187, 46, 159);
     color: #fff;
     font-size: 12px;
     border-radius: 5px;
     border: none;
 }
 .templates #temp-btn:hover{
-    background: rgb(3, 182, 95);
+    background: rgb(187, 46, 159);
 }
 
 

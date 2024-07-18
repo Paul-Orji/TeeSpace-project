@@ -1,0 +1,39 @@
+ /* Footer */
+
+ #frm{
+    display: block;
+   }
+   #subs-btn2{
+    margin-top: 1rem;
+    width: 100%;
+    font-size: 12px;
+    background-color: #bb2ea1;
+   }
+   #subs-btn2 :hover{
+    background-color: #e0139c;
+  
+   }
+   #subs-input2{
+    font-size: 12px;
+    background-color: rgb(242, 238, 238);
+   }
+   .foot .social-links{
+    margin-top: 13px;
+   }
+   .foot .social-links a{
+    padding: 10px;
+    text-decoration: none;
+    color: gray;
+  
+  }
+  .foot .social-links a:hover{
+    color: rgb(187, 46, 156);
+  }
+  .foot{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10rem;
+  }
+  #footer-imgg{
+    margin-top: 15px;
+  }

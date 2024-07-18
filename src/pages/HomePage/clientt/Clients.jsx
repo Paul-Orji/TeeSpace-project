@@ -82,7 +82,7 @@ const Clients = () => {
         <div>
             <Statistics value= "$49M+"
                         details= "sold by customers" 
-                        details1= "through TeeSpace"/>
+                        details1= "through Elegance Apparel"/>
         </div>
         <div>
             <Statistics value= "1086"

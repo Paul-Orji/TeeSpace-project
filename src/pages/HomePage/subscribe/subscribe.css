@@ -30,7 +30,7 @@
 
 }
 #subs-btn{
-    background: rgba(46, 187, 119, 1);
+    background: rgb(187, 46, 159);
     border: none;
     font-size: 12px;
     font-weight: 600;
@@ -40,7 +40,7 @@
 
 }
 #subs-btn:hover{
-    background: rgb(3, 182, 95);
+    background: rgb(187, 46, 159);
 }
 
 

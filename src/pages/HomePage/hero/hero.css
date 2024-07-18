@@ -1,5 +1,5 @@
 .hero-card img{
-    margin-top: 6rem;
+    margin-top: 1rem;
 }
 .hero-card .card-title{
     margin: -15rem 3rem;
@@ -23,7 +23,7 @@
 #btn{
     margin-top: 25px;
     border: none;
-    background: rgba(46, 187, 119, 1);
+    background: rgb(187, 46, 159);
     color: rgba(255, 255, 255, 1);
     height: 30px;
     width: 30%;
@@ -31,7 +31,8 @@
     font-size: 14px;
 }
 #btn:hover{
-    background: rgb(3, 182, 95);
+    background: rgb(187, 46, 159);
+
 }
 .hero-img{
     display: flex;

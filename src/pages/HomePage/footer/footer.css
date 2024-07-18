@@ -5,7 +5,7 @@ footer{
 }
 .footer-sect{
     display: flex;
-    margin: 5rem 10rem;
+    margin: 5rem 5rem;
     padding-top: 5rem;
     justify-content: space-between;
 }
@@ -18,7 +18,7 @@ footer{
     color: gray;
 }
 .questions .social-links a:hover{
-    color: rgba(46, 187, 119, 1);
+    color: rgb(187, 46, 159);
 }
 .questions p{
     font-size: 12px;

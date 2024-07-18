@@ -25,7 +25,7 @@ const Subscribes = () => {
         </Button>
       </InputGroup>
         </div>
-        <img height={300} src="https://res.cloudinary.com/ds2swdt9n/image/upload/v1713527849/banner-111.png_oitjrs.png" alt="TeeSpace design" />
+        <img height={300} src="https://res.cloudinary.com/ds2swdt9n/image/upload/v1713527849/banner-111.png_oitjrs.png" alt="Elegance Apparel design" />
       
     </div>
     </>

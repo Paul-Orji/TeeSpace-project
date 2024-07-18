@@ -9,6 +9,7 @@ import BlogDetails from './pages/BlogDetails/Blog'
 import About from './pages/About/About'
 import OurTeam from './pages/OurTeam/Team'
 import ServiceDetailsmain from './pages/ServiceDetails/ServiceDetailsmain';
+import Hoodies from './pages/Hoodie/Hoodies';
 
 
 
@@ -43,6 +44,7 @@ function App() {
           <Route path='about' element={<About/>}/>
           <Route path='our-team' element={<OurTeam/>}/>
           <Route path='service-detailsmain' element={<ServiceDetailsmain/>}/>
+          <Route path='hoodies' element={<Hoodies/>}/>
 
           {/* <Route path='*' element={NotFound} /> */}
         </Routes>

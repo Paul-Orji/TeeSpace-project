@@ -29,7 +29,7 @@
 }
 .hot2{
     position: absolute;
-    background: rgba(17, 177, 150, 1);
+    background: rgb(187, 46, 159);
     color: #fff;
     font-size: 8px;
     border-radius: 10px 0 10px 0;
@@ -43,7 +43,7 @@
 
 .sale{
     position: absolute;
-    background: rgba(46, 187, 119, 1);
+    background: rgb(187, 46, 159);
     color: #fff;
     font-size: 10px;
     border-radius: 3px;
@@ -86,8 +86,8 @@
     /* margin-top: -5px; */
 }
 .stores-btn{
-    background: rgba(222, 249, 236, 1);
-    color: rgba(59, 183, 126, 1);
+    background: rgb(249, 222, 243);
+    color: rgb(187, 46, 159);
     font-size: 10px;
     width: 70px;
     height: 30px;
@@ -95,7 +95,7 @@
     gap: 10px;
 }
 .stores-btn:hover{
-    background: rgb(210, 240, 227);
+    background: rgb(240, 210, 230);
 }
 .p-div{
     display: flex;
@@ -105,7 +105,7 @@
 .p-div .price{
     font-size: 12px;
     font-weight: 600;
-    color: rgba(59, 183, 126, 1);
+    color: rgb(187, 46, 159);
     padding-top: 10px;
    
     
@@ -154,7 +154,7 @@
         justify-content: space-between;
     }
     .prc .price{
-        color: rgba(59, 183, 126, 1);
+        color: rgb(187, 46, 159);
         padding-top: 10px;
     }
     .mobview-cont h5{
