@@ -108,9 +108,13 @@
  } */
  .hoodie-dv{
   position: relative;
-  border:0.5px solid rgb(248, 6, 228);
+  border:0.5px solid rgb(253, 240, 252);
   border-radius: 5px;
   padding: 2px;
+ }
+ .hoodie-dv:hover{
+  border:0.5px solid rgb(187, 46, 159) ;
+  border-radius: 5px;
  }
  #fv{
   position: absolute;
