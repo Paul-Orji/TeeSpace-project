@@ -4,7 +4,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 const Aboutmain = () => {
-  useEffect(() => {
+  useEffect(() => {npm
     AOS.init({
       duration: 900,
       easing: "ease",
