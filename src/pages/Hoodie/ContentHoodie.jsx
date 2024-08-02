@@ -1,7 +1,8 @@
 import React from 'react'
 import './hoodies.css'
-import { FaStar} from 'react-icons/fa'
+import { FaSearch, FaStar} from 'react-icons/fa'
 import 'remixicon/fonts/remixicon.css';
+import  { useState } from 'react';
 
 
 
@@ -30,7 +31,17 @@ const HoodieSect = (props) =>{
   )
 }
 
+
+
 const ContentHoodie = () => {
+  const [isChecked, setIsChecked] = useState(false);
+
+  const handleCheckboxChange = (event) => {
+    setIsChecked(event.target.checked);
+  };
+
+
+
   return (
   <>
   <div className='tab'>
@@ -41,10 +52,64 @@ const ContentHoodie = () => {
       <div className="container containerr">
       <div className="scrollable left">
         <div className="content">
-          {/* Your left content here */}
-          {Array.from({ length: 50 }, (_, i) => (
+          <div className='search-container'>
+            <input id='prod-search' type="text" placeholder='Search Products' />
+            <a href="/"><FaSearch className='search-icon'/></a>
+          </div>
+          <div>
+            <h5>Product Categories</h5>
+            <p>Male</p>
+            <p>Female</p>
+            <p>Boy</p>
+            <p>Girl</p>
+            <p>Unisex</p>
+            <p>Children</p>
+          </div>
+
+          <div>
+            <h5>Size</h5>
+            <label>
+              <input type="checkbox" checked={isChecked} onChange={handleCheckboxChange}/>
+                XS
+            </label>
+              {isChecked && <div>This is the content that is shown when the checkbox is checked.</div>}
+              <label>
+              <input type="checkbox" checked={isChecked} onChange={handleCheckboxChange}/>
+                S
+            </label>
+              {isChecked && <div>This is the content that is shown when the checkbox is checked.</div>}
+              <label>
+              <input type="checkbox" checked={isChecked} onChange={handleCheckboxChange}/>
+                M
+            </label>
+              {isChecked && <div>This is the content that is shown when the checkbox is checked.</div>}
+              <label>
+              <input type="checkbox" checked={isChecked} onChange={handleCheckboxChange}/>
+                L
+            </label>
+              {isChecked && <div>This is the content that is shown when the checkbox is checked.</div>}
+              <label>
+              <input type="checkbox" checked={isChecked} onChange={handleCheckboxChange}/>
+                XL
+            </label>
+              {isChecked && <div>This is the content that is shown when the checkbox is checked.</div>}
+              <label>
+              <input type="checkbox" checked={isChecked} onChange={handleCheckboxChange}/>
+                XXL
+            </label>
+              {isChecked && <div>This is the content that is shown when the checkbox is checked.</div>}
+              <label>
+              <input type="checkbox" checked={isChecked} onChange={handleCheckboxChange}/>
+                XXXL
+            </label>
+              {isChecked && <div>This is the content that is shown when the checkbox is checked.</div>}
+          </div>
+        
+          
+          
+          {/* {Array.from({ length: 50 }, (_, i) => (
             <p key={i}>Left Scrollable Content {i + 1}</p>
-          ))}
+          ))} */}
         </div>
       </div>
       <div className="right">
