@@ -1,0 +1,152 @@
+/* Default styles for larger screens */
+.comment {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.j-card {
+  width: 325px;
+  margin: 20px;
+}
+
+.j-card h1 {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 35px;
+  margin-right: 50px;
+}
+
+.j-card p {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #7e7e7e;
+}
+
+.j-card .test {
+  background-color: #b479d9;
+  width: 50%;
+  height: 40px;
+  top: 20px;
+}
+
+.j-card button {
+  border-radius: 12px;
+  width: 50%;
+  padding: -1rem;
+  background-color: #2ebb77;
+  color: white;
+  font-weight: 800;
+  font-size: 15px;
+  line-height: 50px;
+  border: none;
+}
+
+.t-card {
+  width: 25%;
+  padding: 0.5rem;
+  border-radius: 8px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  margin: 0.8rem;
+}
+
+.t-card h3 {
+  font-weight: 700;
+  font-size: 18px;
+  margin-top: 0.5rem;
+  margin-bottom: 0.1rem;
+  padding: 25px;
+}
+
+.anna {
+  display: flex;
+}
+
+.anna img {
+  margin-top: 18px;
+}
+
+.anna h4 {
+  line-height: 3px;
+  text-align: center;
+  margin-left: 8px;
+}
+
+.anna h4 p {
+  line-height: 12px;
+  color: #7e7e7e;
+}
+
+.t-card p {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 30px;
+}
+
+/* Media query for smaller screens (mobile devices) */
+@media only screen and (max-width: 767px) {
+  .comment {
+    flex-direction: column;
+    margin-top: -2rem;
+  }
+
+  .comment,
+  .card-container {
+    width: 100%;
+  }
+
+  .j-card {
+    width: 90%;
+  }
+
+  .test {
+    justify-content: center;
+  }
+
+  .j-card h1 {
+    width: 100%;
+    font-size: 25px;
+    margin-bottom: 0.5rem;
+    text-align: center;
+  }
+
+  .j-card h1 br {
+    display: none;
+  }
+
+  .j-card p {
+    font-size: 16px;
+    text-align: center;
+    /* margin-right: 2rem; */
+    line-height: 1.5;
+  }
+
+  .j-card button {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .t-card {
+    width: 90%;
+  }
+
+  .t-card h3 {
+    text-align: center;
+  }
+
+  .t-card p {
+    text-align: justify;
+  }
+
+  .t-card p br {
+    display: none;
+  }
+}

@@ -1,0 +1,13 @@
+.Nav-heading {
+  color: purple;
+  background-color: #b2aeb6;
+  text-align: center;
+  padding: 0.1px;
+}
+
+@media only screen and (max-width: 768px) {
+  .Nav-heading {
+    /* padding: 5px; */
+    font-size: 14px;
+  }
+}

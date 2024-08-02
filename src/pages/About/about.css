@@ -1,0 +1,352 @@
+.about {
+  margin-top: 5rem;
+  align-items: center;
+}
+
+.about h5 {
+  background-color: #fef5fb;
+  text-align: center;
+  padding: 1rem;
+}
+
+.heading h3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 2rem;
+  position: relative; /* Needed for the pseudo-element */
+  overflow: hidden; /* Hides the sliding effect outside the element */
+}
+
+.heading h3::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  height: 2px;
+  width: 20%;
+  background-color: rgb(187, 46, 159); /* Change color as needed */
+  transform: translateX(-50%) scaleX(0);
+  transition: transform 0.8s ease;
+}
+
+.heading h3:hover::before {
+  transform: translateX(-50%) scaleX(1);
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.heading h3 {
+  animation: slideIn 0.8s ease forwards; /* Adds the animation */
+}
+
+.stunning {
+  display: flex;
+  margin: 0 2rem;
+  align-items: center;
+  /* justify-content: space-between; */
+}
+
+.text {
+  /* margin-left: 15rem; */
+  margin-top: 1.5rem;
+  margin-left: 10rem;
+}
+
+.abt {
+  font-size: small;
+  line-height: 2rem;
+  text-align: justify;
+  width: 80%;
+}
+
+#custombtn {
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(187, 46, 159);
+  color: whitesmoke;
+  font-size: 10px;
+  width: 110px;
+  padding: 0.5rem;
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Add transform transition */
+  opacity: 0; /* Start invisible */
+  transform: translateY(10px); /* Slide up effect */
+  animation: fadeInUp 0.8s forwards 0.8s; /* Entrance animation */
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1; /* Fully visible */
+    transform: translateY(0); /* Original position */
+  }
+}
+
+#custombtn:hover {
+  background-color: black;
+  transform: scale(1.05); /* Slight zoom on hover */
+}
+
+.images {
+  margin-top: 8rem;
+  /* margin-bottom: 10rem; */
+  margin-right: 35%;
+}
+
+.yimg {
+  margin-top: 5rem;
+}
+
+.yimg img {
+  margin-left: 26%;
+}
+
+.img1 img {
+  position: absolute;
+  top: 17rem;
+  border-radius: 5px;
+}
+
+.quality {
+  text-align: center;
+  margin-top: 4rem;
+}
+
+.quality p {
+  font-size: 16px;
+  opacity: 5; /* Start invisible */
+  transform: scale(0.1); /* Start slightly larger */
+  animation: zoomIn 0.8s forwards; /* Animation applied */
+}
+
+@keyframes zoomIn {
+  to {
+    opacity: 1; /* Fully visible */
+    transform: scale(1); /* Return to normal size */
+  }
+}
+
+.quality h3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  position: relative; /* Needed for the pseudo-element */
+  overflow: hidden; /* Hide the overflow */
+  margin-bottom: 0.5rem; /* Add some spacing */
+}
+
+.quality h3::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -5px; /* Position below the text */
+  width: 50%;
+  height: 2px;
+  background-color: rgb(187, 46, 159); /* Change color as needed */
+  transform: translateX(-50%) scaleX(0); /* Start hidden */
+  transition: transform 0.4s ease; /* Smooth transition */
+}
+
+.quality h3:hover::after {
+  transform: translateX(-50%) scaleX(1); /* Slide effect on hover */
+}
+
+.qualityprint {
+  display: flex;
+  justify-content: center;
+}
+.card1 {
+  width: 30%;
+  text-align: justify;
+  margin: 3rem;
+  border: none;
+  padding: 1rem;
+  border-radius: 8px;
+  background-color: aquamarine;
+}
+
+.card1:hover {
+  transform: scale(1.05); /* Slightly zoom in */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Add shadow on hover */
+}
+
+.card1 h3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  text-align: center;
+  font-size: 24px;
+}
+
+.card2 {
+  width: 30%;
+  text-align: justify;
+  margin: 3rem;
+  border: none;
+  background-color: burlywood;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.card2:hover {
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3); /* Increase shadow on hover */
+  transform: translateY(-5px); /* Slight upward movement */
+}
+
+.card2 h3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  text-align: center;
+  font-size: 24px;
+}
+
+.qualityprint2 {
+  display: flex;
+  justify-content: center;
+  margin-top: -4rem;
+}
+
+.card3 {
+  width: 30%;
+  text-align: justify;
+  margin: 3rem;
+  border: none;
+  padding: 1rem;
+  border-radius: 8px;
+  background-color: beige;
+}
+
+.card3 h3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  text-align: center;
+  font-size: 24px;
+}
+
+.card4 {
+  width: 30%;
+  text-align: justify;
+  margin: 3rem;
+  border: none;
+  padding: 1rem;
+  border-radius: 8px;
+  background-color: cornflowerblue;
+}
+
+.card4 h3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  text-align: center;
+  font-size: 24px;
+}
+
+.partners {
+  background-color: aliceblue;
+  padding: 2rem;
+}
+
+.mission h1 {
+  color: rgba(0, 0, 0, 0.2);
+  text-align: center;
+  font-weight: 700;
+}
+
+.mission p {
+  font-weight: 400;
+  color: black;
+  text-align: center;
+}
+
+.vision h1 {
+  color: rgba(0, 0, 0, 0.2);
+  text-align: center;
+  font-weight: 700;
+}
+
+.vision p {
+  font-weight: 400;
+  color: black;
+  text-align: center;
+}
+/* Media Query */
+@media (max-width: 768px) {
+  .about {
+    margin-top: 2rem;
+    padding: 0 1rem; /* Add some padding for smaller screens */
+  }
+
+  .heading h3 {
+    font-size: 20px; /* Adjust font size */
+    margin-top: 1rem; /* Reduce top margin */
+  }
+
+  .stunning {
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center items */
+    margin: 0; /* Reset
+  }
+
+  .text {
+    margin-left: 0; /* Reset left margin */
+    text-align: center; /* Center text */
+    margin-right: -9rem;
+    width: 100%;
+  }
+
+  .abt {
+    width: 100%; /* Full width on mobile */
+    margin: 0; /* Reset margins */
+    line-height: 1.5; /* Improve readability */
+    font-size: 17px;
+    margin-top: -1rem;
+  }
+
+  #custombtn {
+    width: 30%; /* Full width button */
+    margin: 1rem 0; /* Add margin for spacing */
+  }
+
+  .images {
+    margin-top: 4rem; /* Reduce top margin */
+    margin-right: 0; /* Reset right margin */
+  }
+
+  .img1 img {
+    width: 100%; /* Responsive image */
+    height: auto; /* Maintain aspect ratio */
+    position: relative; /* Adjust position */
+    top: 0; /* Reset top position */
+  }
+
+  .quality {
+    margin-top: 2rem; /* Reduce top margin */
+  }
+
+  .quality h3 {
+    font-size: 22px; /* Adjust font size */
+  }
+
+  .quality p {
+    font-size: 14px; /* Adjust font size */
+  }
+
+  .qualityprint,
+  .qualityprint2 {
+    flex-direction: column; /* Stack cards vertically */
+    align-items: center; /* Center items */
+  }
+
+  .card1,
+  .card2,
+  .card3,
+  .card4 {
+    width: 90%; /* Full width on mobile */
+    margin: 1rem 0; /* Add vertical margin */
+  }
+}
