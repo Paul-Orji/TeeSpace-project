@@ -1,14 +1,14 @@
-import React from 'react'
-import Layout from '../Cart/Layout'
-import ServiceDetailsmain from './ServiceDetailsmain'
+import React from "react";
+import Layout from "../Cart/Layout";
+import ServiceDetailsmain from "./ServiceDetailsmain";
 
 const ServiceDetails = () => {
   return (
-   <>
-   <Layout/>
-   <ServiceDetailsmain/>
-   </>
-  )
-}
+    <>
+      <Layout />
+      <ServiceDetailsmain />
+    </>
+  );
+};
 
-export default ServiceDetails
+export default ServiceDetails;

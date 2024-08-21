@@ -1,0 +1,68 @@
+.maind {
+  text-align: center;
+  margin-top: 5%;
+}
+
+.mainwork {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 8rem;
+}
+
+.cardarrow1 {
+  position: absolute;
+  margin-left: 22rem;
+  justify-content: space-between;
+}
+
+.cardarrow2 {
+  position: absolute;
+  margin-left: 48rem;
+  margin-top: 2rem;
+}
+
+.card img {
+  width: 15%;
+  margin-left: 7rem;
+}
+
+.card h4 {
+  text-align: center;
+  margin-top: 0.5rem;
+}
+
+.card p {
+  text-align: center;
+  font-size: 14px;
+  margin-top: -1rem;
+}
+
+/* Media query for smaller screens (e.g., mobile devices) */
+@media screen and (max-width: 768px) {
+  .mainwork {
+    flex-direction: column; /* Stack cards vertically */
+    margin-right: 3rem; /* Remove right margin */
+  }
+
+  .cardarrow1,
+  .cardarrow2 {
+    position: static; /* Remove absolute positioning */
+    margin-left: 6rem; /* Reset margin */
+  }
+
+  .card img {
+    width: 20%; /* Make images full width */
+    margin-left: 5rem; /* Reset margin */
+  }
+
+  .card h4 {
+    width: 100%;
+    font-size: 18px;
+    margin-left: -0.3rem;
+  }
+
+  .card p {
+    width: 100%;
+    font-size: 12px;
+  }
+}

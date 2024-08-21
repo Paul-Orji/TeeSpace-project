@@ -1,0 +1,89 @@
+/* Add a fade-in animation to .Mainb */
+.Mainb {
+  display: flex;
+  justify-content: center;
+  margin-top: -5rem;
+  opacity: 3; /* Start with 0 opacity */
+  animation: fadeIn 5s ease-in-out forwards; /* Apply the animation */
+}
+
+/* Define the fadeIn animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.Mainb-text {
+  text-align: center;
+  display: flex;
+}
+
+.cardbox {
+  justify-content: space-between;
+  margin: 5rem;
+  margin-top: 5rem;
+}
+
+/* Add a slide-in animation to .cardbox h3 */
+.cardbox h3 {
+  text-align: justify;
+  font-weight: 700;
+  font-size: 24px;
+  transform: translateX(-20px); /* Start position */
+  transition: transform 0.5s ease; /* Apply the transition */
+}
+
+/* On hover, slide in from left */
+.cardbox h3:hover {
+  transform: translateX(0); /* End position */
+}
+
+/* Add a scale-up animation to .cardbox p */
+.cardbox p {
+  font-size: small;
+  display: inline-block;
+  margin-left: 20px;
+  text-align: justify;
+  transform: scale(1); /* Start scale */
+  transition: transform 0.3s ease; /* Apply the transition */
+}
+
+/* On hover, scale up */
+.cardbox p:hover {
+  transform: scale(1.1); /* End scale */
+}
+
+/* For mobile phones: */
+@media only screen and (max-width: 768px) {
+  .Mainb {
+    justify-content: space-between;
+    margin-top: -5vh;
+    margin-left: 3rem;
+  }
+
+  .Mainb-text {
+    display: block;
+    margin-top: 1rem;
+    text-align: center;
+    /* margin-left: 2rem; */
+  }
+
+  .cardbox {
+    margin-left: -2rem;
+  }
+
+  .cardbox h3 {
+    font-size: 27px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .cardbox p {
+    font-size: 15px;
+    text-align: left;
+    margin-top: -4rem;
+  }
+}

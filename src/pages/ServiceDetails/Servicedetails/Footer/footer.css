@@ -1,0 +1,48 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin: 5px; */
+}
+
+.copywrite {
+  margin: 2rem;
+  align-items: center;
+}
+
+.copywrite h6 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  color: #7e7e7e;
+}
+
+.Socialicon a {
+  font-size: large;
+  margin: 1rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .footer {
+    display: block;
+    text-align: center;
+    margin-top: 5rem;
+  }
+
+  .copywrite h6 {
+    font-weight: 100;
+    font-size: 14px;
+    color: #7e7e7e;
+    margin-bottom: 0.2rem;
+  }
+
+  .copywrite img {
+    width: 80%;
+    margin-top: 0.2rem;
+  }
+
+  .Socialicon a {
+    /* margin: 10px; */
+    font-size: large;
+  }
+}
